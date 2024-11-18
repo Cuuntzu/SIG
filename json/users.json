@@ -1,0 +1,32 @@
+[
+    {
+        "username": "a",
+        "password": "a",
+        "usia": "3",
+        "jeniskelamin": "Laki-laki \ud83d\udc66",
+        "fotoprofile": "1134204.png",
+        "jenisgym": "Strength \ud83d\udcaa",
+        "deskripsi": "Saya mantap \ud83e\uddd8\ud83e\uddd8\ud83e\uddd8\ud83e\uddd8\ud83e\uddd8\ud83e\uddd8",
+        "totalulasan": 0
+    },
+    {
+        "username": "b",
+        "password": "b",
+        "usia": "19",
+        "jeniskelamin": "Perempuan \ud83d\udc67",
+        "fotoprofile": "IMG_20210831_203258_740.jpg",
+        "jenisgym": "Martial Arts \ud83e\udd4b",
+        "deskripsi": "adadwa sada dw asdwd asd adwa as dasd ad aggat ara ",
+        "totalulasan": 1
+    },
+    {
+        "username": "yusuf",
+        "password": "a",
+        "usia": "1",
+        "jeniskelamin": "Laki-laki \ud83d\udc66",
+        "fotoprofile": "Screenshot 2024-10-09 143740.png",
+        "jenisgym": "Strength \ud83d\udcaa",
+        "deskripsi": "asda",
+        "totalulasan": 0
+    }
+]

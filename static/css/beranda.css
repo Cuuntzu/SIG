@@ -1,0 +1,40 @@
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.fa-2x {
+    font-size: 2rem;
+}
+    /* Black dimming overlay effect on hover */
+    #gymCarousel .carousel-item {
+        position: relative;
+    }
+    #gymCarousel .carousel-item::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0); /* No overlay by default */
+        transition: background-color 0.3s ease-in-out;
+        z-index: 1;
+    }
+    #gymCarousel:hover .carousel-item::before {
+        background-color: rgba(0, 0, 0, 0.5); /* Black overlay on hover */
+    }
+    #gymCarousel .carousel-item img {
+        position: relative;
+        z-index: 0;
+    }
+    #gymCarousel .carousel-caption {
+        /* position: relative; */
+        z-index: 2;
+    }

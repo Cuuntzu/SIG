@@ -1,0 +1,138 @@
+{% extends "base.html" %}
+
+{% block css %}
+{{url_for('static', filename='css/maps.css')}}
+{% endblock %}
+
+{% block title %}
+Maps
+{% endblock %}
+
+{% block content %}
+
+
+<div class="container mt-4">
+    <!-- Featured Gyms Section -->
+    <h2 class="text-center mb-4">Gym Populer</h2>
+    <div class="row gy-4">
+        {% for gym in gyms[:4] %}
+        <div class="col-md-3">
+            <div class="card shadow-sm h-100">
+                <img src="{{ url_for('static', filename='uploads/fotogym/' + gym['foto'][0]) }}" class="card-img-top" alt="{{ gym.nama }}">
+                <div class="card-body">
+                    <h5 class="card-title-secondary">{{ gym.nama }}</h5>
+                    <p class="card-text">{{ gym.alamat }}</p>
+    
+                    {% set ns = namespace(total_bintang=0) %}
+                    {% set jumlah_ulasan = gym.ulasan|length %}
+    
+                    {% for ulasan in gym.ulasan %}
+                        {% set ns.total_bintang = ns.total_bintang + ulasan.bintang|int %}
+                    {% endfor %}
+    
+                    {% set rata_rata_bintang = (ns.total_bintang / jumlah_ulasan) if jumlah_ulasan > 0 else 0 %}
+    
+                    <p class="card-text text-warning">
+                        <i class="fa fa-star"></i> {{ rata_rata_bintang|round(1) }} / 5
+                    </p>
+                    <button class="btn btn-secondary w-100" onclick="viewOnMap('{{ gym.nama }}')">Lihat di Peta</button>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    
+    </div>
+</div>
+
+
+
+<div class="container mt-5">
+    <h1>Maps</h1>
+    <div class="row position-relative">
+        <!-- Map and Search Section -->
+        <div id="mapContainer" class="col-12">
+            <input type="text" id="search-bar" class="form-control mb-3" placeholder="Cari Gym..." oninput="searchGym()" />
+            <div id="map" >
+                <!-- Map content will be displayed here -->
+            </div>
+        </div>
+
+        <!-- Gym Details Section, initially hidden with animation -->
+        <div id="gymDetails" class="col-lg-3 col-md-12 mt-3 mt-lg-0 position-absolute top-0 end-0 h-100 bg-white p-3 rounded-4">
+            <!-- Selected Gym Details will be displayed here -->
+        </div>
+    </div>
+</div>
+
+
+ <!-- Modal for Reviews -->
+ <div class="modal fade" id="reviewsModal" tabindex="-1" aria-labelledby="reviewsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="reviewsModalLabel">Ulasan</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="reviewsContent">
+                <!-- Reviews will be loaded here dynamically -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" onclick="showWriteReviewModal()">Tulis Ulasan</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal for Writing a Review -->
+<div class="modal fade" id="writeReviewModal" tabindex="-1" aria-labelledby="writeReviewModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="writeReviewModalLabel">Tulis Ulasan</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="reviewForm" method="post">
+                    <!-- Input Nama -->
+                    <!-- <div class="mb-3"> -->
+                        <!-- <label for="reviewerName" class="form-label">Nama</label> -->
+                        <!-- <input type="hidden" class="form-control" id="reviewerName" name="nama" placeholder="Masukkan nama Anda"
+                            required> -->
+                    <!-- </div> -->
+                    <!-- Input Rating Bintang -->
+                    <div class="mb-3">
+                        <label class="form-label">Rating</label>
+                        <div class="star-rating" id="starRating">
+                            <!-- 5 star rating options -->
+                            <input type="radio" name="bintang" value="5" id="star5">
+                            <label for="star5" class="star">★</label>
+                            <input type="radio" name="bintang" value="4" id="star4">
+                            <label for="star4" class="star">★</label>
+                            <input type="radio" name="bintang" value="3" id="star3">
+                            <label for="star3" class="star">★</label>
+                            <input type="radio" name="bintang" value="2" id="star2">
+                            <label for="star2" class="star">★</label>
+                            <input type="radio" name="bintang" value="1" id="star1">
+                            <label for="star1" class="star">★</label>
+                        </div>
+                    </div>
+                    <!-- Input Komentar -->
+                    <div class="mb-3">
+                        <label for="reviewComment" class="form-label">Komentar</label>
+                        <textarea class="form-control" name="komentar" id="reviewComment" rows="3" placeholder="Tulis komentar Anda"
+                            required></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Batal</button>
+                <button type="submit" class="btn btn-secondary" onclick="submitReview(event)">Kirim Ulasan</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}

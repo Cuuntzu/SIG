@@ -1,0 +1,153 @@
+{% extends "base.html" %}
+
+{% block css %}
+{{url_for('static', filename='css/profile.css')}}
+{% endblock %}
+
+{% block js %}
+{{url_for('static', filename='js/profile.js')}}
+{% endblock %}
+
+{% block title %}
+profile
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="spasiajah"></div>
+    <div class="profile-card">
+        <img src="{{ url_for('static', filename='uploads/fotoprofile/'+session['fotoprofile']) }}" alt="Foto Profile">
+        <div class="description-box">
+        <h2>{{ session['username'] }}</h2>
+        <p><span class="label">Usia  <span class="ml-5"></span><span class="ml-5">&nbsp;</span>:</span> {{ session['usia'] }} tahun</p>
+        <p><span class="label">Jenis Kelamin <span class="ml-1"></span> :</span> {{ session['jeniskelamin'] }}</p>
+        <p><span class="label">Jenis Gym <span class="ml-3">&nbsp;&nbsp;&nbsp;</span> :</span> {{ session['jenisgym'] }}</p>
+        <p><span class="label">Total Ulasan <span class="ml-1">&nbsp;&nbsp;</span> :</span> {{ session['totalulasan'] }} ⭐</p>
+        <div class="description-box">
+            <p><span class="label">Deskripsi  <span class="ml-2">&nbsp;&nbsp;</span> :</span></p>
+            <p>{{ session['deskripsi'] }}</p>
+        </div>
+            <!-- Tombol untuk membuka modal -->
+            <button type="button" class="btn btn-secondary mx-auto w-100 d-block " data-bs-toggle="modal" data-bs-target="#formModal">
+                Edit
+            </button>
+            
+        </div>
+    
+    </div>
+        <div class="scrollable-card">
+            <h2>Top 5 Rater 🔥</h2 >
+            <div class="scroll-content">
+                {% for top5rater in top5raters %}
+                <div class="profile-card-top">
+                    <img src="{{ url_for('static', filename='uploads/fotoprofile/'+top5rater['fotoprofile']) }}" alt="Foto Profile">
+                    <div class="profile-card-content">
+                        <div class="description-box">
+                            <h2>{{top5rater['username'] }}</h2>
+                            <p ><span class="label">Jenis Gym  <span class="ml-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> :</span> {{ top5rater['jenisgym'] }}</p>
+                            <p ><span class="label">Total Ulasan  <span class="ml-1">&nbsp;&nbsp;&nbsp;</span> :</span>  {{ top5rater['totalulasan'] }} ⭐</p>
+                            <p ><span class="label">Deskripsi  <span class="ml-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> :</span></p>
+                            <p>{{ top5rater['deskripsi'] }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>          
+        </div>
+    <div class="spasiajah"></div>
+</div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Header Modal -->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="formModalLabel">Edit Profile</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <!-- Body Modal -->
+                <div class="modal-body">
+                    <form id="form" method="post" enctype="multipart/form-data" onsubmit="kirimdata(event)">
+                        <!-- Input Username -->
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" name="username" id="username"
+                                value="{{session['username']}}" required>
+                        </div>
+
+                        <!-- Input Password -->
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" name="password" value="{{session['password']}}" required>
+                        </div>
+
+                        <!-- Input Usia -->
+                        <div class="mb-3">
+                            <label for="usia" class="form-label">Usia</label>
+                            <input type="number" class="form-control" name="usia" min="0" value="{{session['usia']}}"
+                                required>
+                        </div>
+
+                        <!-- Select Jenis Kelamin -->
+                        <div class="mb-3">
+                            <label for="jeniskelamin" class="form-label">Jenis Kelamin</label>
+                            <select name="jeniskelamin" class="form-select" required>
+                                <option value="Pilih" disabled {% if session['jeniskelamin']=='Pilih' %}selected{% endif
+                                    %}>Pilih</option>
+                                <option value="Laki-laki 👦" {% if session['jeniskelamin']=='Laki-laki 👦' %}selected{%
+                                    endif %}>Laki-laki</option>
+                                <option value="Perempuan 👧" {% if session['jeniskelamin']=='Perempuan 👧' %}selected{%
+                                    endif %}>Perempuan</option>
+                                <option value="Undefined ❔" {% if session['jeniskelamin']=='Undefined ❔' %}selected{%
+                                    endif %}>Undefined</option>
+                            </select>
+                        </div>
+
+                        <!-- Select Jenis Gym -->
+                        <div class="mb-3">
+                            <label for="jenisgym" class="form-label">Jenis Gym</label>
+                            <select name="jenisgym" class="form-select" required>
+                                <option value="Pilih" disabled {% if session['jenisgym']=='Pilih' %}selected{% endif %}>
+                                    Pilih</option>
+                                <option value="Kardio 💓" {% if session['jenisgym']=='Kardio 💓' %}selected{% endif %}>
+                                    Kardio</option>
+                                <option value="Strength 💪" {% if session['jenisgym']=='Strength 💪' %}selected{% endif
+                                    %}>Strength</option>
+                                <option value="Martial Arts 🥋" {% if session['jenisgym']=='Martial Arts 🥋'
+                                    %}selected{% endif %}>Martial Arts</option>
+                                <option value="Yoga 🧘" {% if session['jenisgym']=='Yoga 🧘' %}selected{% endif %}>Yoga
+                                </option>
+                                <option value="Undefined ❔" {% if session['jenisgym']=='Undefined ❔' %}selected{% endif
+                                    %}>Another</option>
+                            </select>
+                        </div>
+
+                        <!-- Input Deskripsi -->
+                        <div class="mb-3">
+                            <label for="deskripsi" class="form-label">Deskripsi</label>
+                            <textarea class="form-control" name="deskripsi" id="deskripsi" cols="30"
+                                rows="3">{{session['deskripsi']}}</textarea>
+                        </div>
+
+                        <!-- Input File Foto Profile -->
+                        <div class="mb-3">
+                            <label for="fotoprofile" class="form-label">Foto Profile</label>
+                            <input type="file" class="form-control" name="fotoprofile">
+                        </div>
+
+                        <!-- Button Kirim -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                            <button type="submit" class="btn btn-success">Update</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

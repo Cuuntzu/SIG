@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    background-color: #f5f7fa;
+}
+
+nav {   
+    width: 250px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    height: 100%;
+    transition: width 0.3s;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+nav.collapsed {
+    width: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s, border-radius 0.3s;
+    white-space: nowrap;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+/* Sembunyikan teks navigasi dalam mode collapsed */
+nav.collapsed .nav-text {
+    display: none;
+}
+
+/* Prevent link from changing color when clicked */
+nav ul li a:active, nav ul li a:visited {
+    color: white;
+}
+
+/* Style toggle button */
+.toggle-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 15px 0;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+    transition: font-size 0.3s;
+}
+
+nav.collapsed .toggle-btn i {
+    font-size: 20px; /* Icon lebih kecil ketika sidebar collapsed */
+}
+
+.toggle-btn:hover {
+    background-color: #555;
+}
+
+.toggle-btn-chat {
+    font-size: 24px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.toggle-btn-chat:hover {
+    background-color: #555;
+}
+
+/* Konten bergeser mengikuti lebar sidebar */
+.content {
+    margin-left: 60px;
+    padding: 20px;
+    flex-grow: 1;
+    transition: margin-left 0.3s;
+}
+
+.shifted {
+    margin-left: 250px; /* Margin ketika sidebar collapsed */
+}
+
+.chat-container {
+    width: 100%;
+    max-width: 350px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.chat-container.hidden {
+    display: none;
+}
+
+.chat-header {
+    background-color: #555;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    background: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    max-width: 70%;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    position: relative;
+    word-wrap: break-word;
+    font-size: 14px;
+}
+
+.message.user {
+    align-self: flex-end;
+    background-color: #555;
+    color: #ffffff;
+    border-bottom-right-radius: 0;
+}
+
+.message.other {
+    align-self: flex-start;
+    background-color: #f1f0f0;
+    color: #333333;
+    border-bottom-left-radius: 0;
+}
+
+.input-container {
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f8f8f8;
+    flex-shrink: 0;
+}
+
+.input-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.input-container button {
+    background-color: #555;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input-container button:hover {
+    background-color: #333;
+}
+
+
+
+.review-foto{
+    width: 1.5em;
+    border-radius: 50%;
+    margin-right: 0.5em;
+}

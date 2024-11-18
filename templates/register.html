@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="{{url_for('static', filename='js/register.js')}}"></script>
+</head>
+<body>
+    <a href="/">kembali</a>
+    <form id="form" method="post" enctype="multipart/form-data" onsubmit="kirimdata(event)">
+        <input type="text" name="username" id="username" required>
+        <input type="password" name="password" required>
+        <input type="number" name="usia" min="0" required>
+        <select name="jeniskelamin" required>
+            <option value="Pilih" selected disabled>Pilih</option>
+            <option value="Laki-laki 👦">Laki-laki</option>
+            <option value="Perempuan 👧">Perempuan</option>
+            <option value="Undefined ❔">Undefined</option>
+        </select>
+        <select name="jenisgym" required>
+            <option value="Pilih" selected disabled>Pilih</option>
+            <option value="Kardio 💓">Kardio</option>
+            <option value="Strength 💪">Strength</option>
+            <option value="Martial Arts 🥋">Martial Arts</option>
+            <option value="Yoga 🧘">Yoga</option>
+            <option value="Undefined ❔">Another</option>
+        </select>
+        <textarea name="deskripsi" cols="30" rows="10"></textarea>
+        <input type="file" name="fotoprofile" required>
+        <input type="submit" value="Register">
+    </form>     
+    <p>Sudah Punya Akun? <a href="/login">Login</a></p>
+</body>
+
+
+</html>

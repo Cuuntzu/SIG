@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block css %}
+{{url_for('static', filename='css/beranda.css')}}
+{% endblock %}
+
+{% block title %}
+Beranda 
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-4">
+    <div class="container mt-4">
+        <!-- Statistics Section -->
+        <div class="row text-center mb-4">
+            <div class="col-md-6">
+                <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+                    <div class="card-body">
+                        <i class="fa fa-users fa-2x text-primary mb-2"></i>
+                        <h5 class="card-title">Total Gyms</h5>
+                        <p class="card-text">{{ total_gyms }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+                    <div class="card-body">
+                        <i class="fa fa-star fa-2x text-warning mb-2"></i>
+                        <h5 class="card-title">Total Ulasan</h5>
+                        <p class="card-text">{{ total_reviews }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Gym Carousel Section -->
+    <div id="gymCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            {% for gym in gyms %}
+            <div class="carousel-item {% if loop.first %}active{% endif %}">
+                <img src="{{ url_for('static', filename='uploads/fotogym/' + gym['foto'][0]) }}" class="d-block w-100" alt="{{ gym.nama }}">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>{{ gym.nama }}</h5>
+                    <p>{{ gym.alamat }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#gymCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#gymCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<div class="container mt-4">
+    <h5>Rekomendasi Video</h5>
+    <div class="row">
+        {% for video in modules[:3] %}
+        <div class="col-md-4">
+            <div class="card">
+                <img src="{{ video.fotovideo }}" class="card-img-top" alt="{{ video.judulvideo }}">
+                <div class="card-body">
+                    <h6 class="card-title">{{ video.judulvideo }}</h6>
+                    <a href="{{ video.linkvideo }}" class="btn btn-secondary" target="_blank">Tonton Sekarang</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

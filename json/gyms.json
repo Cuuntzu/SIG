@@ -1,0 +1,48 @@
+[
+    {
+        "nama": "Neo Fitness",
+        "telepon": "(0761) 42372",
+        "alamat": "Jl. Riau No.55, Padang Terubuk, Kec. Senapelan, Kota Pekanbaru, Riau 28155",
+        "fasilitas": "Gym, Personal Trainer, Kelas Yoga, Aerobik, Spinning",
+        "buka": {
+            "Senin": "06:00",
+            "Selasa": "06:00",
+            "Rabu": "06:00",
+            "Kamis": "06:00",
+            "Jumat": "06:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "21:00",
+            "Minggu": "21:00"
+        },
+        "longitude": "101.43763009996027",
+        "latitude": "0.5351702087396188",
+        "foto": [
+            "neofitness_1.png",
+            "neofitness_2.jpg",
+            "neofitness_2.jpg",
+            "neofitness_2.jpg"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
+]

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Title {% endblock %}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/base.css')}}">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js"></script>
+    <script src="{{url_for('static', filename='js/chat.js')}}"></script>
+
+    <link rel="stylesheet" href="{% block css %} {% endblock %}">
+    <script src="{% block js %} {% endblock %}"></script>
+</head>
+<body>
+    
+    <nav id="sidebar" class="collapsed">
+        <button class="toggle-btn" onclick="toggleSidebar()"><i class="fa fa-bars"></i></button>
+        <ul>
+            <li><a href="/beranda" class="d-flex align-items-center"> <div class="fa fa-home me-2"></div> <span class="nav-text">Beranda</span></a></li>
+            <li><a href="/maps" class="d-flex align-items-center"><div class="fa fa-map me-2"></div> <span class="nav-text">Maps</span></a></li>
+            <li><a href="/module" class="d-flex align-items-center"><div class="fa fa-book me-2"></div> <span class="nav-text">Module</span></a></li>
+            <li><a href="/profile" class="d-flex align-items-center"><img class="me-2" src="{{url_for('static', filename='uploads/fotoprofile/'+session['fotoprofile'])}}" style="width: 17px;height: 17px;border-radius: 50%;" alt="F"> <span class="nav-text">Profile</span></a></li>
+            <li><a href="/logout" class="d-flex align-items-center"><div class="fa fa-sign-out me-2"></div> <span class="nav-text">Logout</span></a></li>
+        </ul>
+    </nav>
+    
+    <div id="main-content" class="content">
+        {% block content %}
+        content
+        {% endblock %}
+    </div>
+    
+    <button class="toggle-btn-chat" onclick="toggleChat()"><div class="fa fa-comments"></div></button>
+    
+    <div id="chat-container" class="chat-container hidden">
+        <div class="chat-header">
+            Chat Room
+            <button class="close-btn" onclick="toggleChat()">&times;</button>
+        </div>
+        <div class="messages" id="messages"></div>
+        <div class="input-container">
+            <input type="text" id="message" placeholder="Type a message..." onkeypress="checkEnter(event)" class="form-control">
+            <input type="hidden" id="namayangmengirim" value="{{session['username']}}">
+            <input type="hidden" id="fotoyangmengirim" value="{{session['fotoprofile']}}">
+            <button onclick="sendMessage()" class="btn btn-secondary">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const content = document.getElementById('main-content');
+            sidebar.classList.toggle('collapsed');
+            content.classList.toggle('shifted');
+        }
+        
+        function toggleChat() {
+            const chat = document.getElementById('chat-container');
+            chat.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
+</html>
+    <!-- Bootstrap & Leaflet scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="{{ url_for('static', filename='js/maps.js') }}"></script>

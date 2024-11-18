@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block css %}
+{{url_for('static', filename='css/module.css')}}
+{% endblock %}
+
+{% block js %}
+{{url_for('static', filename='js/chat.js')}}
+{% endblock %}
+
+{% block title %}
+Beranda
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="module-title">Video Module</h1>
+    <div class="video-grid">
+        {% for module in modules %}
+        <div class="video-card">
+            <img src="{{module.fotovideo}}" alt="Thumbnail" class="thumbnail">
+            <h2 class="video-title">{{ module.judulvideo }}</h2>
+            <a href="{{module.linkvideo}}" target="_blank" class="play-button">Play Video</a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="{{url_for('static', filename='js/login.js')}}"></script>
+  </head>
+  <body>
+    <a href="/">kembali</a>
+    <form id="form" method="post" onsubmit="kirimdata(event)">
+      <input type="text" name="username" required />
+      <input type="text" name="password" required />
+      <input type="submit" />
+    </form>
+    <p>Belum Punya Akun? <a href="/register">Register</a></p>
+  </body>
+</html>
+
+
