@@ -1,38 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="{{url_for('static', filename='js/register.js')}}"></script>
-</head>
-<body>
-    <a href="/">kembali</a>
-    <form id="form" method="post" enctype="multipart/form-data" onsubmit="kirimdata(event)">
-        <input type="text" name="username" id="username" required>
-        <input type="password" name="password" required>
-        <input type="number" name="usia" min="0" required>
-        <select name="jeniskelamin" required>
-            <option value="Pilih" selected disabled>Pilih</option>
-            <option value="Laki-laki 👦">Laki-laki</option>
-            <option value="Perempuan 👧">Perempuan</option>
-            <option value="Undefined ❔">Undefined</option>
-        </select>
-        <select name="jenisgym" required>
-            <option value="Pilih" selected disabled>Pilih</option>
-            <option value="Kardio 💓">Kardio</option>
-            <option value="Strength 💪">Strength</option>
-            <option value="Martial Arts 🥋">Martial Arts</option>
-            <option value="Yoga 🧘">Yoga</option>
-            <option value="Undefined ❔">Another</option>
-        </select>
-        <textarea name="deskripsi" cols="30" rows="10"></textarea>
-        <input type="file" name="fotoprofile" required>
-        <input type="submit" value="Register">
-    </form>     
-    <p>Sudah Punya Akun? <a href="/login">Login</a></p>
-</body>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/register.css')}}"
+    />
+  </head>
+  <body>
+    <ul>
+      <li><a href="#">Logo</a></li>
+      <li style="float: right"><a href="/login">Login</a></li>
+    </ul>
 
+    <div class="container">
+      <div class="kiri">
+        <h2>Create Your Account</h2>
 
+        <form
+          id="form"
+          method="post"
+          enctype="multipart/form-data"
+          onsubmit="kirimdata(event)"
+        >
+          <div class="form-group-row">
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                required
+                placeholder="Masukkan username anda"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                required
+                placeholder="Masukkan password anda"
+              />
+            </div>
+          </div>
+
+          <div class="form-group-row">
+            <div class="form-group">
+              <label for="usia">Usia</label>
+              <input
+                type="number"
+                name="usia"
+                min="0"
+                required
+                placeholder="Masukkan usia anda"
+              />
+            </div>
+            <div class="form-group">
+              <label for="fotoprofile">Foto Profil</label>
+              <input
+                type="file"
+                name="fotoprofile"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group-row">
+            <div class="form-group">
+              <label for="jeniskelamin">Jenis Kelamin</label>
+              <select
+                name="jeniskelamin"
+                required
+              >
+                <option value="Pilih" selected disabled>Pilih</option>
+                <option value="Laki-laki 👦">Laki-laki</option>
+                <option value="Perempuan 👧">Perempuan</option>
+                <option value="Undefined ❔">Undefined</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="jenisgym">Jenis Gym yang Disukai</label>
+              <select
+                name="jenisgym"
+                required
+              >
+                <option value="Pilih" selected disabled>Pilih</option>
+                <option value="Kardio 💓">Kardio</option>
+                <option value="Strength 💪">Strength</option>
+                <option value="Martial Arts 🥋">Martial Arts</option>
+                <option value="Yoga 🧘">Yoga</option>
+                <option value="Undefined ❔">Another</option>
+              </select>
+            </div>
+          </div>
+
+          <label for="deskripsi">Deskripsi</label>
+          <textarea
+            id="deskripsi"
+            name="deskripsi"
+            cols="30"
+            rows="5"
+            placeholder="Ceritakan tentang diri Anda"
+          ></textarea>
+
+          <input type="submit" class="submit-btn" value="Register" />
+        </form>
+
+        <p>Sudah Punya Akun? <a href="/login">Login</a></p>
+      </div>
+
+      <div class="kanan">
+        <h1>NAMA WEBSITE</h1>
+        <p>
+          Sistem ini dirancang untuk memudahkan masyarakat Pekanbaru menemukan
+          informasi lokasi, fasilitas, dan layanan gym. Guna mendukung gaya
+          hidup sehat dan kebugaran.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>

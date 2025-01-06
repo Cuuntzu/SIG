@@ -180,14 +180,15 @@ function sa_gagalulas() {
                                     `<span>${i < Math.round(rating) ? '★' : '☆'}</span>`
                                 ).join('')}
                             </div>
-                            <span class="review-count">${reviewCount} ulasan GymFit</span>
+                            
                         </div>
+                        <span class="review-count">Jumlah ulasan: ${reviewCount}</span>
                         <p><strong>Telepon:</strong> ${gym.telepon}</p>
                         <p><strong>Alamat:</strong> ${gym.alamat}</p>
                         <p><strong>Fasilitas:</strong> ${gym.fasilitas}</p>
                         <div class="opening-hours-container">
                             <div class="opening-hours-summary" onclick="toggleDropdown(event)">
-                                <span>Jam:</span> <span class="status-open">Buka</span>
+                                <span>Jam:</span><span class="status-open"> Buka</span>
                                 <span class="dot">·</span> Tutup pukul ${orderedDays[0].tutup}
                                 <span>▼</span>
                             </div>
@@ -222,14 +223,14 @@ function sa_gagalulas() {
                                 `<span>${i < Math.round(rating) ? '★' : '☆'}</span>`
                             ).join('')}
                         </div>
-                        <span class="review-count">${reviewCount} ulasan GymFit</span>
-                    </div>
+                        </div>
+                        <span class="review-count">Jumlah ulasan: ${reviewCount}</span>
                     <p><strong>Telepon:</strong> ${gym.telepon}</p>
                     <p><strong>Alamat:</strong> ${gym.alamat}</p>
                     <p><strong>Fasilitas:</strong> ${gym.fasilitas}</p>
                     <div class="opening-hours-container">
                         <div class="opening-hours-summary" onclick="toggleDropdown(event)">
-                            <span>Jam:</span> <span class="status-open">Buka</span>
+                            <span>Jam:</span><span class="status-open"> Buka</span>
                             <span class="dot">·</span> Tutup pukul ${orderedDays[0].tutup}
                             <span>▼</span>
                         </div>

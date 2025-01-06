@@ -9,35 +9,10 @@ Beranda
 {% endblock %}
 
 {% block content %}
-
 <div class="container mt-4">
-    <div class="container mt-4">
-        <!-- Statistics Section -->
-        <div class="row text-center mb-4">
-            <div class="col-md-6">
-                <div class="card shadow-sm p-3 mb-5 bg-white rounded">
-                    <div class="card-body">
-                        <i class="fa fa-users fa-2x text-primary mb-2"></i>
-                        <h5 class="card-title">Total Gyms</h5>
-                        <p class="card-text">{{ total_gyms }}</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card shadow-sm p-3 mb-5 bg-white rounded">
-                    <div class="card-body">
-                        <i class="fa fa-star fa-2x text-warning mb-2"></i>
-                        <h5 class="card-title">Total Ulasan</h5>
-                        <p class="card-text">{{ total_reviews }}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
+
     <!-- Gym Carousel Section -->
-    <div id="gymCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="gymCarousel" class="carousel slide shadow" data-bs-ride="carousel">
         <div class="carousel-inner">
             {% for gym in gyms %}
             <div class="carousel-item {% if loop.first %}active{% endif %}">
@@ -58,14 +33,38 @@ Beranda
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-</div>
 
-<div class="container mt-4">
-    <h5>Rekomendasi Video</h5>
+    <!-- Statistics Section -->
+    <div class="row text-center my-5">
+        <div class="col-md-6">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <div class="card-body">
+                    <i class="fa fa-users fa-2x text-primary mb-2"></i>
+                    <h5 class="card-title">Total Gyms</h5>
+                    <p class="card-text">{{ total_gyms }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <div class="card-body">
+                    <i class="fa fa-star fa-2x text-warning mb-2"></i>
+                    <h5 class="card-title">Total Ulasan</h5>
+                    <p class="card-text">{{ total_reviews }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recommended Videos Section -->
+    <div class="mt-4 d-flex justify-content-between align-items-center">
+        <h5>Rekomendasi Video</h5>
+        <a href="{{ url_for('module') }}" class="btn btn-link text-decoration-none">View More <i class="fa fa-arrow-right"></i></a>
+    </div>
     <div class="row">
         {% for video in modules[:3] %}
         <div class="col-md-4">
-            <div class="card">
+            <div class="card shadow">
                 <img src="{{ video.fotovideo }}" class="card-img-top" alt="{{ video.judulvideo }}">
                 <div class="card-body">
                     <h6 class="card-title">{{ video.judulvideo }}</h6>
@@ -75,5 +74,7 @@ Beranda
         </div>
         {% endfor %}
     </div>
+    
+
 </div>
 {% endblock %}

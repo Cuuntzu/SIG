@@ -1,0 +1,233 @@
+body {
+  background-image: linear-gradient(
+    155deg,
+    #ffccea 0%,
+    #ffccea 50%,
+    #bfecff 50%,
+    #bfecff 100%
+  );
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 25px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+}
+
+.container {
+  margin: 25px;
+  padding: 50px;
+  height: fit-content;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.kiri,
+.kanan {
+  padding: 0 50px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.kiri {
+  border-right: 1px solid #ddd;
+}
+
+.kiri h2 {
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #444;
+  text-align: center;
+}
+
+.kiri .google-btn {
+  display: block;
+  margin-bottom: 25px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.kiri .google-btn:hover {
+  background-color: #0056b3;
+}
+
+.kiri .atau {
+  display: flex;
+  align-items: center;
+  margin: 25px 0;
+  color: #777;
+}
+
+.kiri .atau hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.kiri .atau p {
+  margin: 0 10px;
+}
+
+.kiri form {
+  display: flex;
+  flex-direction: column;
+}
+
+.kiri form label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.kiri form input[type="text"],
+.kiri form input[type="password"] {
+  margin-bottom: 25px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.kiri form .submit-btn {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.kiri form .submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.kiri p {
+  font-size: 14px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.kiri p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.kiri p a:hover {
+  text-decoration: underline;
+}
+
+.kanan h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #444;
+  text-align: center;
+}
+
+.kanan p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+  text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column; /* Stack columns for medium screens */
+    padding: 20px;
+  }
+  .kiri,
+  .kanan {
+    width: 100%; /* Make both sections take full width */
+    padding: 0 20px;
+  }
+  .kiri {
+    border-right: none; /* Remove border between sections */
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .kiri h2 {
+    font-size: 20px;
+  }
+
+  .kiri form input[type="text"],
+  .kiri form input[type="password"] {
+    font-size: 16px;
+  }
+
+  .kiri form .submit-btn {
+    font-size: 16px;
+  }
+
+  .kanan h1 {
+    font-size: 24px;
+  }
+
+  .kanan p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+
+  .kiri,
+  .kanan {
+    padding: 0 15px;
+  }
+
+  .kiri h2 {
+    font-size: 18px;
+  }
+
+  .kiri form input[type="text"],
+  .kiri form input[type="password"] {
+    font-size: 14px;
+  }
+
+  .kiri form .submit-btn {
+    font-size: 14px;
+  }
+
+  .kanan h1 {
+    font-size: 22px;
+  }
+
+  .kanan p {
+    font-size: 12px;
+  }
+}

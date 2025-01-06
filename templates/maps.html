@@ -13,11 +13,11 @@ Maps
 
 <div class="container mt-4">
     <!-- Featured Gyms Section -->
-    <h2 class="text-center mb-4">Gym Populer</h2>
+    <h2 class="text-center mb-5">Gym Populer</h2>
     <div class="row gy-4">
         {% for gym in gyms[:4] %}
         <div class="col-md-3">
-            <div class="card shadow-sm h-100">
+            <div class="card shadow h-100">
                 <img src="{{ url_for('static', filename='uploads/fotogym/' + gym['foto'][0]) }}" class="card-img-top" alt="{{ gym.nama }}">
                 <div class="card-body">
                     <h5 class="card-title-secondary">{{ gym.nama }}</h5>
@@ -35,7 +35,7 @@ Maps
                     <p class="card-text text-warning">
                         <i class="fa fa-star"></i> {{ rata_rata_bintang|round(1) }} / 5
                     </p>
-                    <button class="btn btn-secondary w-100" onclick="viewOnMap('{{ gym.nama }}')">Lihat di Peta</button>
+                    <button class="btn btn-info w-100" onclick="viewOnMap('{{ gym.nama }}')">Lihat di Peta</button>
                 </div>
             </div>
         </div>
@@ -47,12 +47,12 @@ Maps
 
 
 <div class="container mt-5">
-    <h1>Maps</h1>
+    <h2 class"mb-5">Maps</h2>
     <div class="row position-relative">
         <!-- Map and Search Section -->
         <div id="mapContainer" class="col-12">
-            <input type="text" id="search-bar" class="form-control mb-3" placeholder="Cari Gym..." oninput="searchGym()" />
-            <div id="map" >
+            <input type="text" id="search-bar" class="form-control mb-3 shadow" placeholder="Cari Gym..." oninput="searchGym()" />
+            <div id="map" class="shadow rounded">
                 <!-- Map content will be displayed here -->
             </div>
         </div>

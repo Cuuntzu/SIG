@@ -1,5 +1,19 @@
-
+/* General Map styling */
 #map { height: 600px; }
+
+/* Title Styling */
+.title-bg {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, #007bff, #00c3ff);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Search Bar Styling */
 #search-bar {
     width: 100%;
     padding: 10px;
@@ -7,23 +21,28 @@
     font-size: 16px;
     margin-bottom: 10px;
 }
+
+/* Popup content styling */
 .popup-content {
     font-size: 14px;
     font-family: Arial, sans-serif;
     max-width: 250px;
 }
+
 .popup-content h3 {
     font-size: 16px;
     margin: 0;
     padding-bottom: 5px;
     border-bottom: 1px solid #ddd;
     font-weight: bold;
-    /* color: #007bff; */
 }
+
 .popup-content p {
     margin: 5px 0;
     padding: 0;
 }
+
+/* Rating stars */
 .popup-content .rating {
     display: flex;
     align-items: center;
@@ -31,18 +50,22 @@
     margin-top: 5px;
     color: #555;
 }
+
 .popup-content .rating .stars {
     display: flex;
     margin-left: 5px;
     color: #f4c150;
 }
+
 .popup-content .rating .stars span {
     font-size: 16px;
 }
+
 .popup-content .rating .review-count {
     margin-left: 5px;
-    /* color: #007bff; */
 }
+
+/* Card view for gym images */
 .popup-content .cardview {
     display: flex;
     overflow-x: auto;
@@ -53,9 +76,11 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
 .popup-content .cardview::-webkit-scrollbar {
     display: none;
 }
+
 .popup-content .card {
     flex: 0 0 auto;
     width: 160px;
@@ -66,17 +91,25 @@
     user-select: none;
     -webkit-user-drag: none;
 }
+
+img.gschange {
+    filter: sepia(1) saturate(10000%) hue-rotate(0deg) brightness(0.8);
+}
+
 .popup-content .card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     pointer-events: none;
 }
+
+/* Opening Hours Dropdown */
 .popup-content .opening-hours-container {
     margin-top: 8px;
     font-size: 13px;
     position: relative;
 }
+
 .opening-hours-summary {
     font-weight: bold;
     color: #777;
@@ -84,12 +117,15 @@
     align-items: center;
     cursor: pointer;
 }
+
 .opening-hours-summary .status-open {
     color: #34A853;
 }
+
 .opening-hours-summary .dot {
     margin: 0 5px;
 }
+
 .opening-hours-dropdown {
     display: none;
     background-color: #fff;
@@ -102,12 +138,14 @@
     left: 0;
     width: 100%;
 }
+
 .opening-hours-dropdown ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     color: #333;
 }
+
 .opening-hours-dropdown li {
     display: flex;
     justify-content: space-between;
@@ -116,91 +154,144 @@
     color: #555;
 }
 
-.review-stars{
+/* Star rating styling */
+.review-stars {
     color: #f4c150;
 }
 
-.review-foto{
+.review-foto {
     width: 1.5em;
     border-radius: 50%;
     margin-right: 0.5em;
 }
 
-/* Styling for star rating */
+/* Star Rating System */
 .star-rating {
     display: flex;
     direction: row-reverse;
     justify-content: flex-start;
 }
+
 .star-rating input[type="radio"] {
     display: none;
 }
+
 .star-rating label {
     font-size: 24px;
     color: #ddd;
     cursor: pointer;
     transition: color 0.2s;
 }
+
 .star-rating input[type="radio"]:checked ~ label,
 .star-rating label:hover,
 .star-rating label:hover ~ label {
     color: #f4c150;
 }
 
-img.gschange { filter: grayscale(100%) }
-
-
-/* Featured Gyms Styling */
+/* Gym Cards */
 .card {
     border: none;
     border-radius: 10px;
     transition: transform 0.3s ease;
     overflow: hidden;
 }
+
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 }
+
 .card-title {
     font-size: 1.1rem;
     font-weight: bold;
     color: #007bff;
 }
+
 .card-text {
     color: #666;
 }
+
 .card img {
     height: 150px;
     object-fit: cover;
 }
-
-
-
-
 
 /* Responsive adjustments for gym details */
 @media (max-width: 992px) {
     #gymDetails {
         display: none; /* Hide on small screens */
     }
+
     #gymDetails.show {
         display: none; /* Hide on small screens */
     }
 }
-    /* Hidden state for gym details with slide-out effect */
-    #gymDetails {
-        opacity: 0;
-        transform: translateX(100%); /* Slide out of view to the right */
-        transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth animation */
+
+#gymDetails {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#gymDetails.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+#mapContainer {
+    transition: width 0.3s ease;
+}
+
+/* Mobile View Adjustment */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1rem;
     }
 
-    /* Visible state with full opacity and position */
-    #gymDetails.show {
-        opacity: 1;
-        transform: translateX(0); /* Slide in from the right */
+    .card img {
+        height: 120px;
     }
 
-    /* Transition for map resizing */
+    /* Ensure map container takes full width */
     #mapContainer {
-        transition: width 0.3s ease;
+        width: 100%;
     }
+
+    #map {
+        height: 350px; /* Adjust map height for smaller screens */
+    }
+
+    /* Gym Details section on smaller screens */
+    #gymDetails {
+        top: auto;
+        bottom: 0;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 576px) {
+    /* Reduce margin and padding for small screens */
+    .card-body {
+        padding: 10px;
+    }
+
+    /* Adjust Search bar for small screens */
+    #search-bar {
+        font-size: 14px;
+    }
+
+    /* Adjust map height for smaller devices */
+    #map {
+        height: 250px;
+    }
+
+    /* Gym Cards stack vertically on smaller screens */
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .popup-content {
+        font-size: 12px;
+    }
+}

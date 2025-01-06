@@ -1,3 +1,4 @@
+/* Default container padding and text alignment */
 .container {
     padding: 20px;
     text-align: center;
@@ -68,14 +69,60 @@
 }
 
 /* Responsive Design */
+
+/* Tablet View */
 @media (max-width: 768px) {
     .video-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* Adjust video card size on tablets */
+    .video-card {
+        padding: 15px;
+    }
+
+    /* Slightly smaller module title */
+    .module-title {
+        font-size: 1.8em;
+    }
 }
 
+/* Mobile View */
 @media (max-width: 576px) {
     .video-grid {
         grid-template-columns: 1fr;
+    }
+
+    /* Video card padding adjustment for mobile */
+    .video-card {
+        padding: 20px;
+    }
+
+    /* Smaller module title for mobile */
+    .module-title {
+        font-size: 1.5em;
+    }
+
+    /* Reduce button size on smaller screens */
+    .play-button {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+}
+
+/* Extra Small View (for very small screens, e.g., portrait mobile devices) */
+@media (max-width: 400px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .video-title {
+        font-size: 1em;
+    }
+
+    .play-button {
+        width: 100%;
+        font-size: 0.85em;
     }
 }

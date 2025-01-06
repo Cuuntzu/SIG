@@ -215,13 +215,20 @@ def ambilgym():
     nama = request.args.get('nama')
     with open("json/gyms.json", "r") as gyms_json_data:
         gyms_json_data = json.load(gyms_json_data)
+        found = False
         for gym in gyms_json_data:
             if gym["nama"] == nama:
                 session["namagym"] = gym["nama"]
+                found = True
+                break
                 # print(session['namagym'])
-                return jsonify(gym)
             else:
-                return jsonify({"status": "gymtidakada"})
+                found = False
+        
+        if found == True:
+            return jsonify(gym)
+        else:
+            return jsonify({"status": "gymtidakada"})
 
 
 @app.route('/module', methods=["GET", "POST"])

@@ -1,3 +1,26 @@
+/* Mobile-first approach */
+body {
+    font-size: 16px; /* Default font size for mobile */
+}
+
+@media (min-width: 576px) {
+    body {
+        font-size: 18px; /* Font size for small screens and up */
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 20px; /* Font size for medium screens and up */
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 22px; /* Font size for large screens and up */
+    }
+}
+
 .card {
     border: none;
     border-radius: 10px;
@@ -12,29 +35,77 @@
 .fa-2x {
     font-size: 2rem;
 }
-    /* Black dimming overlay effect on hover */
-    #gymCarousel .carousel-item {
-        position: relative;
+
+.btn-link {
+    font-size: 1rem;
+    color: #007bff; /* Warna biru untuk tombol */
+    padding: 0;
+    border: none;
+    text-align: right;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Warna lebih gelap saat hover */
+}
+
+/* Styling for the gym carousel */
+#gymCarousel {
+    width: 100%;
+    /* max-width: 1270px; */
+    margin: 0 auto;
+    border-radius: 5px; /* Rounded corners for the carousel container */
+    overflow: hidden; /* Ensures the content doesn't overflow rounded corners */
+}
+
+/* Carousel container */
+.carousel-inner {
+    width: 100%; /* Ensures the carousel container fills the width of the parent */
+    height: 500px; /* Fixed height for the carousel */
+}
+
+/* Styling for images inside carousel items */
+.carousel-item img {
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    width: 100%;
+    height: 100%; /* Ensure image fits the height of the container */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+/* Black dimming overlay effect on hover */
+#gymCarousel .carousel-item {
+    position: relative;
+}
+
+#gymCarousel .carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* No overlay by default */
+    transition: background-color 0.3s ease-in-out;
+    z-index: 1;
+}
+
+#gymCarousel:hover .carousel-item::before {
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay on hover */
+}
+
+#gymCarousel .carousel-item img {
+    position: relative;
+    z-index: 0;
+}
+
+/* Carousel caption styling */
+#gymCarousel .carousel-caption {
+    z-index: 2;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .carousel-inner {
+        height: 300px; /* Adjusts the height for smaller screens */
     }
-    #gymCarousel .carousel-item::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0); /* No overlay by default */
-        transition: background-color 0.3s ease-in-out;
-        z-index: 1;
-    }
-    #gymCarousel:hover .carousel-item::before {
-        background-color: rgba(0, 0, 0, 0.5); /* Black overlay on hover */
-    }
-    #gymCarousel .carousel-item img {
-        position: relative;
-        z-index: 0;
-    }
-    #gymCarousel .carousel-caption {
-        /* position: relative; */
-        z-index: 2;
-    }
+}

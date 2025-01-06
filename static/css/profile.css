@@ -13,6 +13,13 @@
 @media (max-width: 1200px) {
     .container {
         flex-direction: column;
+        gap: 30px; /* Mengurangi jarak antar elemen pada layar kecil */
+    }
+
+    /* Mengatur ukuran profile-card untuk tampilan lebih kecil */
+    .profile-card {
+        max-width: 100%; /* Memastikan card mengambil 100% lebar pada layar kecil */
+        margin-bottom: 30px;
     }
 }
 
@@ -22,25 +29,12 @@
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-     /* width: 100%;
-    max-width: 500px; */
     padding: 40px; 
     height: 810px;
     max-height: 100%;
     text-align: left;
     transition: transform 0.3s, box-shadow 0.3s;
     overflow-y: auto;
-}
-
-.spasiajah{
-    flex-grow: 2;
-}
-
-@media (max-width: 1200px) {
-    .profile-card {
-        max-width: 100%; /* Memastikan card mengambil 100% lebar pada layar kecil */
-        margin-bottom: 30px;
-    }
 }
 
 .profile-card:hover {
@@ -114,8 +108,6 @@ p {
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    /* width: 100%;
-    max-width: 760px; */
     height: 810px;
     max-height: 100%;
     padding: 50px;
@@ -149,7 +141,6 @@ p {
     border-radius: 20px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     width: 100%;
-    /* max-width: 700px; */
     padding: 40px;
     display: flex;
     align-items: center;
@@ -217,5 +208,41 @@ p {
     .modal-content {
         height: 100vh;
         border-radius: 0;
+    }
+
+    /* Adjust profile image size on mobile */
+    .profile-card img {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* Profile Card text adjustments */
+    .profile-card h2 {
+        font-size: 1.5em;
+    }
+
+    .profile-card p {
+        font-size: 1em;
+    }
+
+    /* Adjust button in modal */
+    .modal-footer button {
+        width: 100%;
+    }
+}
+
+/* Responsive styling for the profile card (Top 5) */
+@media (max-width: 768px) {
+    .profile-card-top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-card-top img {
+        margin-bottom: 15px;
+    }
+
+    .profile-card-content {
+        width: 100%;
     }
 }

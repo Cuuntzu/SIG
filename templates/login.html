@@ -6,16 +6,52 @@
     <title>Login</title>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="{{url_for('static', filename='js/login.js')}}"></script>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/login.css')}}"
+    />
   </head>
   <body>
-    <a href="/">kembali</a>
-    <form id="form" method="post" onsubmit="kirimdata(event)">
-      <input type="text" name="username" required />
-      <input type="text" name="password" required />
-      <input type="submit" />
-    </form>
-    <p>Belum Punya Akun? <a href="/register">Register</a></p>
+    <ul>
+      <li><a href="#">Logo</a></li>
+      <li style="float: right"><a href="/register">Register</a></li>
+    </ul>
+
+    <div class="container">
+      <div class="kiri">
+        <h2>Welcome Back</h2>
+
+        <form id="form" method="post" onsubmit="kirimdata(event)">
+          <label for="username">Email</label>
+          <input
+            type="text"
+            name="username"
+            required
+            placeholder="Masukkan email anda"
+          />
+
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            required
+            placeholder="Masukkan password anda"
+          />
+
+          <input type="submit" class="submit-btn" value="Login" />
+        </form>
+
+        <p>Belum Punya Akun? <a href="/register">Register</a></p>
+      </div>
+
+      <div class="kanan">
+        <h1>NAMA WEBSITE</h1>
+        <p>
+          Sistem ini dirancang untuk memudahkan masyarakat Pekanbaru menemukan
+          informasi lokasi, fasilitas, dan layanan gym. Guna mendukung gaya
+          hidup sehat dan kebugaran.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
-
-

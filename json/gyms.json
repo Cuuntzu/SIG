@@ -25,10 +25,2050 @@
         "longitude": "101.43763009996027",
         "latitude": "0.5351702087396188",
         "foto": [
-            "neofitness_1.png",
-            "neofitness_2.jpg",
-            "neofitness_2.jpg",
-            "neofitness_2.jpg"
+            "Neo/gambar (1).png",
+            "Neo/gambar (2).png",
+            "Neo/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "AH Gym+Athletics",
+        "telepon": "0823-9028-6305",
+        "alamat": "Jalan Air Dingin",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.451733333",
+        "longitude":   "101.4591056",
+        "foto": [
+            "AH Gym/gambar (1).png",
+            "AH Gym/gambar (2).png",
+            "AH Gym/gambar (3).png",
+            "AH Gym/gambar (4).png"
+            
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Alpha Fit",
+        "telepon": "-",
+        "alamat": "Jalan Soekarno",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08.30",
+            "Selasa": "08.30",
+            "Rabu": "08.30",
+            "Kamis": "08.30",
+            "Jumat": "08.30",
+            "Sabtu": "08.30",
+            "Minggu": "08.30"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.528458333",
+        "longitude":   "101.4197944",
+        "foto": [
+            "Alpha Fit/gambar (1).png",
+            "Alpha Fit/gambar (2).png",
+            "Alpha Fit/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Angkasa Fitness Center",
+        "telepon": "0882-7185-5968",
+        "alamat": "Jalan Air Dingin",
+        "fasilitas": "Alat Fitness Lengkap, Personal Triner, Parkiran Luas dan Aman, Ruang Gym Luas, Loker Room, Ruang Ganti, Kamar Mandi, CCTV 24 Jam, Free Refill Water, Free WIFI",
+        "buka": {
+            "Senin": "07:00",
+            "Selasa": "07:00",
+            "Rabu": "07:00",
+            "Kamis": "07:00",
+            "Jumat": "07:00",
+            "Sabtu": "07:00",
+            "Minggu": "07:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.449055556",
+        "longitude":   "101.4625056",
+        "foto": [
+            "Angkasa Fitness Center/gambar (1).png",
+            "Angkasa Fitness Center/gambar (2).png",
+            "Angkasa Fitness Center/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "An-Namiroh Gym dan Fitness Center",
+        "telepon": "-",
+        "alamat": "Jalan Marina Utara",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.459163889",
+        "longitude":   "101.4078528",
+        "foto": [
+            "An-Namiroh Gym/gambar (1).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "AtHome Fit",
+        "telepon": "0822-6779-2115",
+        "alamat": "Jalan Rajawali",
+        "fasilitas": "Yoga, Muaythai, Poundfit, Pilates, Aerial Yoga, Zumba, TRX",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.511197222",
+        "longitude":   "101.4338611",
+        "foto": [
+            "AtHome Fit/gambar (1).png",
+            "AtHome Fit/gambar (2).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Babe Gym",
+        "telepon": "-",
+        "alamat": "Jalan Tengku Bey",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"   
+        },
+        "latitude":  "0.462216667",
+        "longitude":   "101.4578667",
+        "foto": [
+            "Babe Gym/gambar (1).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Bintang Raga Gym",
+        "telepon": "0895-6130-67955",
+        "alamat": "Jalan Kaharuddin Nasution",
+        "fasilitas": "Alat Fitness Lengkap dan Import, Personal Triner, Parkiran Luas dan Aman, Ruang Gym Luas, Loker Room, Ruang Ganti, Kamar Mandi, Kafetaria, Free WIFI",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.459277778",
+        "longitude":   "101.4525778",
+        "foto": [
+            "Bintang Raga Gym/gambar (1).png",
+            "Bintang Raga Gym/gambar (2).png",
+            "Bintang Raga Gym/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Blitz Gym",
+        "telepon": "-",
+        "alamat": "Jalan Hangtuah",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.515591667",
+        "longitude":   "101.4870556",
+        "foto": [
+            "Blitz Gym/gambar (1).png",
+            "Blitz Gym/gambar (2).png",
+            "Blitz Gym/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Brother Gym",
+        "telepon": "-",
+        "alamat": "Jalan Sekolah",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.559530556",
+        "longitude":   "101.4350472",
+        "foto": [
+            "Brother Gym/gambar (1).png",
+            "Brother Gym/gambar (2).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Champions Gym",
+        "telepon": "(0761) 7775685, 0882-7163-4428",
+        "alamat": "Jalan Rajawali",
+        "fasilitas": "Disediakan handuk untuk member, Cafe GYM (supplemen termurah & menu sehat),kamar mandi yang bersih dan luas serta locker room, FREE WIFI",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.513952778",
+        "longitude":   "101.433525",
+        "foto": [
+            "Champions Gym/gambar (1).png",
+            "Champions Gym/gambar (2).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "D&J Aerobic Fitness dan Sauna",
+        "telepon": "-",
+        "alamat": "Jalan Bukit Barisan",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.49045",
+        "longitude":   "101.4880083",
+        "foto": [
+            "D&J/gambar (1).png",
+            "D&J/gambar (2).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Dalmy Gym",
+        "telepon": "-",
+        "alamat": "Jalan Sekolah",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.560597222",
+        "longitude":   "101.4440972",
+        "foto": [
+            "Dalmy/gambar (1).png",
+            "Dalmy/gambar (2).png",
+            "Dalmy/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Fitbeat Pro",
+        "telepon": "0812-7763-5050, 0822-8881-7711",
+        "alamat": "Jalan Pemuda",
+        "fasilitas": "Yoga Studio, RPM studio intense workout",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.543316667",
+        "longitude":   "101.4158694",
+        "foto": [
+            "Fitbeat Pro/gambar (1).png",
+            "Fitbeat Pro/gambar (2).png",
+            "Fitbeat Pro/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Fitness Sakti",
+        "telepon": "-",
+        "alamat": "Jalan Karya Cipta",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.443630556",
+        "longitude":   "101.4638361",
+        "foto": [
+            "Fitness Sakti/gambar (1).png",
+            "Fitness Sakti/gambar (2).png",
+            "Fitness Sakti/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Focus Fit Arifin Ahmad",
+        "telepon": "-",
+        "alamat": "Jalan Arifin Ahmad",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.478422222",
+        "longitude":   "101.4499222",
+        "foto": [
+            "Focus Fit Arifin Ahmad/gambar (1).png",
+            "Focus Fit Arifin Ahmad/gambar (2).png",
+            "Focus Fit Arifin Ahmad/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Focus Fit Setia Budhi",
+        "telepon": "0822-8824-9247",
+        "alamat": "Jalan Dr. Setia Budhi",
+        "fasilitas": "Body Pump, Muay Thai, Body Combat, Wheel Yoga, Belly Fit Dance, Pound, Yoga, Yin Yoga, Zumba",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.536188889",
+        "longitude":   "101.4498806",
+        "foto": [
+            "Focus Fit Setia Budhi/gambar (1).png",
+            "Focus Fit Setia Budhi/gambar (2).png",
+            "Focus Fit Setia Budhi/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Focus Fit Soekarno Hatta",
+        "telepon": "-",
+        "alamat": "Jalan Soekarno Hatta",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.522977778",
+        "longitude":   "101.4204306",
+        "foto": [
+            "Focus Fit Soekarno Hatta/gambar (1).png",
+            "Focus Fit Soekarno Hatta/gambar (2).png",
+            "Focus Fit Soekarno Hatta/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Focus Fit Tambusai",
+        "telepon": "-",
+        "alamat": "Jalan Tuanku Tambusai ",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.509183333",
+        "longitude":   "101.4468167",
+        "foto": [
+            "Focus Fit Tambusai/gambar (1).png",
+            "Focus Fit Tambusai/gambar (2).png",
+            "Focus Fit Tambusai/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Grand Focus Fit",
+        "telepon": "-",
+        "alamat": "Jalan Jendral Ahmad Yani",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.521511111",
+        "longitude":   "101.4428472",
+        "foto": [
+            "Grand Focus Fit/gambar (1).png",
+            "Grand Focus Fit/gambar (2).png",
+            "Grand Focus Fit/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "House of Sixpack",
+        "telepon": "0811-7578-26",
+        "alamat": "Jalan Kesadaran",
+        "fasilitas": "Private Session, Personal Triner",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.479775",
+        "longitude":   "101.4775944",
+        "foto": [
+            "House of Sixpack/gambar (1).png",
+            "House of Sixpack/gambar (2).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Hunter Gym",
+        "telepon": "0852-1813-6523",
+        "alamat": "Jalan Manyar Sakti ",
+        "fasilitas": "Tempat fitnes exclusive, Loker pria dan wanita terpisah, Handuk leher, Free refill, Personal Trainer yang berpengalaman di bidang nya, Wifi, CCTV, Free Parkir, Free pause member (syarat berlaku)",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.465213889",
+        "longitude":   "101.3859028",
+        "foto": [
+            "Hunter/gambar (1).png",
+            "Hunter/gambar (2).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Master Pelopor Fitness",
+        "telepon": "0852-5306-7247",
+        "alamat": "Jalan Air Hitam",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.5006",
+        "longitude":   "101.37275",
+        "foto": [
+            "Master Pelopor/gambar (1).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Maxidon Fitness",
+        "telepon": "-",
+        "alamat": "Jalan Sembilang",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.564491667",
+        "longitude":   "101.4494056",
+        "foto": [
+            "Maxidon/gambar (1).png",
+            "Maxidon/gambar (2).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Muscle Gym Hangtuah",
+        "telepon": "-",
+        "alamat": "Jalan Hangtuah",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.524141667",
+        "longitude":   "101.4788528",
+        "foto": [
+            "Muscle Gym Hangtuah/gambar (1).png",
+            "Muscle Gym Hangtuah/gambar (2).png",
+            "Muscle Gym Hangtuah/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Muscle Gym Marpoyan",
+        "telepon": "0822-8403-0317",
+        "alamat": "Jalan Raya Pasir Putih",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.439672222",
+        "longitude":   "101.4516222",
+        "foto": [
+            "Muscle Gym Marporyan/gambar (1).png",
+            "Muscle Gym Marporyan/gambar (2).png",
+            "Muscle Gym Marporyan/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Muscle Gym Panam",
+        "telepon": "0822-9725-6955",
+        "alamat": "Jalan Hr. Soebrantas",
+        "fasilitas": "Loker",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.463916667",
+        "longitude":   "101.3721833",
+        "foto": [
+            "Muscle Gym Panam/gambar (1).png",
+            "Muscle Gym Panam/gambar (2).png",
+            "Muscle Gym Panam/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Muscle Gym Rambutan",
+        "telepon": "-",
+        "alamat": "Jalan Rambutan ",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.472108333",
+        "longitude":   "101.4272222",
+        "foto": [
+            "Muscle Gym Rambutan/gambar (1).png",
+            "Muscle Gym Rambutan/gambar (2).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Muscle Gym Umban Sari Atas",
+        "telepon": "0852-6321-6029",
+        "alamat": "Jalan Patria Sari",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.569722222",
+        "longitude":   "101.4231028",
+        "foto": [
+            "Muscle Gym Umban Sari Atas/gambar (1).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Naga Sakti Fitness",
+        "telepon": "-",
+        "alamat": "Jalan Teropong",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.425741667",
+        "longitude":   "101.4194972",
+        "foto": [
+            "Naga Sakti/gambar (1).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "New Hangtuah Fitness",
+        "telepon": "0822-5871-5184",
+        "alamat": "Jalan Dahlia",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.524230556",
+        "longitude":   "101.4327333",
+        "foto": [
+            "New Hangtuah/gambar (1).png",
+            "New Hangtuah/gambar (2).png",
+            "New Hangtuah/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "O'Fit Gym Centre",
+        "telepon": "0813-7158-2222",
+        "alamat": "Jalan Garuda Sakti",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.486658333",
+        "longitude":   "101.3587306",
+        "foto": [
+            "O_Fit/gambar (1).png",
+            "O_Fit/gambar (2).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Permata Fitness",
+        "telepon": "-",
+        "alamat": "Jalan Suka Karya",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.440988889",
+        "longitude":   "101.3856917",
+        "foto": [
+            "Permata/gambar (1).png",
+            "Permata/gambar (2).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Praja Fitness",
+        "telepon": "-",
+        "alamat": "Jalan Bukit Barisan",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.485897222",
+        "longitude":   "101.4951639",
+        "foto": [
+            "Praja/gambar (1).png",
+            "Praja/gambar (2).png",
+            "Praja/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Prince Gym",
+        "telepon": "0822-6856-5655",
+        "alamat": "Jalan Tuanku Tambusai ",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.509897222",
+        "longitude":   "101.4482611",
+        "foto": [
+            "Prince/gambar (1).png",
+            "Prince/gambar (2).png",
+            "Prince/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Prince Gym 55",
+        "telepon": "-",
+        "alamat": "Jalan KH. Ahmad Dahlan",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.513797222",
+        "longitude":   "101.4377583",
+        "foto": [
+            "Prince55/gambar (1).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Racika Sport Center",
+        "telepon": "0821-6949-3216",
+        "alamat": "Jalan Nurhayati",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.443625",
+        "longitude":   "101.4408389",
+        "foto": [
+            "Racika/gambar (1).png",
+            "Racika/gambar (2).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Raja Gym",
+        "telepon": "-",
+        "alamat": "Jalan Delima",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.4653",
+        "longitude":   "101.4037083",
+        "foto": [
+            "Raja/gambar (1).png",
+            "Raja/gambar (2).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Real Private Gym",
+        "telepon": "-",
+        "alamat": "Jalan Jendral ",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.523608333",
+        "longitude":   "101.4231556",
+        "foto": [
+            "Real Private/gambar (1).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "RIT Fitness Suplement & Gym",
+        "telepon": " (0761) 8412977",
+        "alamat": "Jalan Tamtama",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.52675",
+        "longitude":   "101.4266556",
+        "foto": [
+            "RIT/gambar (1).png",
+            "RIT/gambar (2).png",
+            "RIT/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Shaga Active & Wellness",
+        "telepon": "-",
+        "alamat": "Jalan Soekarno Hatta",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.49985",
+        "longitude":   "101.4179139",
+        "foto": [
+            "Shaga/gambar (1).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "SL Fit",
+        "telepon": "-",
+        "alamat": "Jalan Pemuda",
+        "fasilitas": "PRIVATE FITNESS STUDIO, PHYSIOTHERAPIST CLINIC",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.542891667",
+        "longitude":   "101.4160167",
+        "foto": [
+            "SL/gambar (1).png",
+            "SL/gambar (2).png",
+            "SL/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Top Gym",
+        "telepon": "-",
+        "alamat": "Jalan Musyawarah",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.502527778",
+        "longitude":   "101.4211583",
+        "foto": [
+            "Top/gambar (1).png",
+            "Top/gambar (2).png",
+            "Top/gambar (3).png",
+            "Top/gambar (4).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Tristan Fitness",
+        "telepon": "-",
+        "alamat": "Jalan Dr. Setia Budhi",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.536038889",
+        "longitude":   "101.4487111",
+        "foto": [
+            "Tristan/gambar (1).png",
+            "Tristan/gambar (2).png",
+            "Tristan/gambar (3).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Yayat Gym",
+        "telepon": "-",
+        "alamat": "Jalan Tengku Bey",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.462072222",
+        "longitude":   "101.4585444",
+        "foto": [
+            "Yayat/gambar (1).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Zahri Gym",
+        "telepon": "-",
+        "alamat": "Jalan Harapan Raya",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.501",
+        "longitude":   "101.4727",
+        "foto": [
+            "Zahri/gambar (1).png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    },
+    {
+        "nama": "Zeus Gym",
+        "telepon": "-",
+        "alamat": "Jalan Yos Sudarso ",
+        "fasilitas": "-",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "latitude":  "0.561691667",
+        "longitude":   "101.4328417",
+        "foto": [
+            "Zeus/gambar (1).png",
+            "Zeus/gambar (2).png",
+            "Zeus/gambar (3).png"
         ],
         "ulasan": [
             {
