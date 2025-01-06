@@ -45,4 +45,687 @@
             }
         ]
     }
+    ,
+    {
+        "nama": "Naga Sakti Fitness",
+        "telepon": "0852-6321-6029",
+        "alamat": "Jl. Teropong No.999, Kubang Jaya, Kec. Siak Hulu, Kabupaten Kampar, Riau 28283",
+        "fasilitas": "Gym",
+        "buka": {
+            "Senin": "16:00",
+            "Selasa": "16:00",
+            "Rabu": "16:00",
+            "Kamis": "16:00",
+            "Jumat": "16:00",
+            "Sabtu": "16:00",
+            "Minggu": "16:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "21:00",
+            "Minggu": "21:00"
+        },
+        "longitude": "101.4194972",
+        "latitude": "0.4257416667",
+        "foto": [
+            "naga sakti fitness luar.png",
+            "naga sakti fitness dalam.png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
+    ,
+    {
+        "nama": "New Hangtuah Fitness ",
+        "telepon": "081371672825",
+        "alamat": "Jl. Dahlia, Kedungsari, Kec. Sukajadi, Kota Pekanbaru, Riau 28156",
+        "fasilitas": "Gym",
+        "buka": {
+            "Senin": "08:30",
+            "Selasa": "08:30",
+            "Rabu": "08:30",
+            "Kamis": "08:30",
+            "Jumat": "08:30",
+            "Sabtu": "08:30",
+            "Minggu": "08:30"
+            
+        },
+        "tutup": {
+            "Senin": "23:00",
+            "Selasa": "23:00",
+            "Rabu": "23:00",
+            "Kamis": "23:00",
+            "Jumat": "23:00",
+            "Sabtu": "23:00",
+            "Minggu": "23:00"
+        },
+        "longitude": "101.4327333",
+        "latitude": "0.5242305556",
+        "foto": [
+            "new hangtuah fitness luar.png",
+            "new hangtuah fitness dalam.jpg"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
+    ,
+    {
+        "nama": "Champions Gym",
+        "telepon": "088271634428",
+        "alamat": "Jl. Rajawali, Kp. Melayu, Kec. Sukajadi, Kota Pekanbaru, Riau 28124",
+        "fasilitas": "Gym, handuk, Cafe GYM (supplemen termurah & menu sehat), kamar mandi bersih, locker room, FREE WIFI",
+        "buka": {
+            "Senin": "08:30",
+            "Selasa": "08:30",
+            "Rabu": "08:30",
+            "Kamis": "08:30",
+            "Jumat": "08:30",
+            "Sabtu": "08:30",
+            "Minggu": "08:30"
+            
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "longitude": "101.433525",
+        "latitude": "0.5139527778",
+        "foto": [
+            "champions gym dalam.png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
+    ,
+    {
+        "nama": "AtHome Fit",
+        "telepon": "082267792115",
+        "alamat": "Jl. Rajawali No.57, Kp. Melayu, Kec. Sukajadi, Kota Pekanbaru, Riau 28122",
+        "fasilitas": "yoga, muaythai, poundfit, pilates, aerial yoga, zumba, TRX ",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "09:00"
+        },
+        "tutup": {
+            "Senin": "21:00",
+            "Selasa": "21:00",
+            "Rabu": "21:00",
+            "Kamis": "21:00",
+            "Jumat": "21:00",
+            "Sabtu": "21:00",
+            "Minggu": "13:00"
+        },
+        "longitude": "101.4338611",
+        "latitude": "0.5111972222",
+        "foto": [
+            "at home luar.jpg",
+            "At homefit.jpg",
+            "At home 2.jpg"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
+    ,
+    {
+        "nama": "Prince Gym 55",
+        "telepon": "0822-6856-5655",
+        "alamat": "Jl. KH. Ahmad Dahlan No.55C, Kp. Tengah, Kec. Sukajadi, Kota Pekanbaru, Riau 28122",
+        "fasilitas": " gym ",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "tutup",
+            "Minggu": "tutup"
+        },
+        "tutup": {
+            "Senin": "23:00",
+            "Selasa": "23:00",
+            "Rabu": "23:00",
+            "Kamis": "23:00",
+            "Jumat": "23:00",
+            "Sabtu": "tutup",
+            "Minggu": "tutup"
+        },
+        "longitude": "101.4482611",
+        "latitude": "0.5098972222",
+        "foto": [
+            "prince 55 luar.jpg",
+            "princec gym dalam.png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
+    ,
+    {
+        "nama": "SL Fit",
+        "telepon": " (0761) 8412977",
+        "alamat": "Jalan Pemuda, Kompleks Pemuda City Walk, Blok C17, Tampan, Pekanbaru City, Riau 28291",
+        "fasilitas": "PRIVATE FITNESS STUDIO, PHYSIOTHERAPIST CLINIC",
+        "buka": {
+            "Senin": "06:00",
+            "Selasa": "06:00",
+            "Rabu": "06:00",
+            "Kamis": "06:00",
+            "Jumat": "06:00",
+            "Sabtu": "07:00",
+            "Minggu": "tutup"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "21:00",
+            "Minggu": "tutup"
+        },
+        "longitude": "101.4160167",
+        "latitude": "0.5428916667",
+        "foto": [
+            "sl fit dalam.jpg",
+            "sl fit dalam 2.jpg",
+            "sl fit luar.jpg"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
+    ,
+    {
+        "nama": "Hunter Gym",
+        "telepon": "085218136523",
+        "alamat": "Jl. Manyar Sakti No. 04, Panam Raya Square (Samping Metropolitan city), Panam, Pekanbaru.",
+        "fasilitas": "gym, loker pria dan wanita terpisah, handuk leher,free refill, Personal Trainer yang berpengalaman, wifi ,cctv, free parkir,free pause member (syarat berlaku)",
+        "buka": {
+            "Senin": "07:00",
+            "Selasa": "07:00",
+            "Rabu": "07:00",
+            "Kamis": "07:00",
+            "Jumat": "07:00",
+            "Sabtu": "07:00",
+            "Minggu": "07:00"
+        },
+        "tutup": {
+            "Senin": "23:00",
+            "Selasa": "23:00",
+            "Rabu": "23:00",
+            "Kamis": "23:00",
+            "Jumat": "23:00",
+            "Sabtu": "23:00",
+            "Minggu": "23:00"
+        },
+        "longitude": "101.3859028",
+        "latitude": "0.4652138889",
+        "foto": [
+            "hunter gym dalam.png",
+            "hunter gym luar.png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
+    ,
+    {
+        "nama": "Fitbeat Pro ",
+        "telepon": "0812-7763-5050 / 082288817711",
+        "alamat": "Kompleks Pemuda City Walk, Jl. Pemuda, Tampan, Payung Sekaki, Pekanbaru City, Riau 28291",
+        "fasilitas": "yoga studio, RPM studio, intense workout",
+        "buka": {
+            "Senin": "07:00",
+            "Selasa": "07:00",
+            "Rabu": "07:00",
+            "Kamis": "07:00",
+            "Jumat": "07:00",
+            "Sabtu": "08:30",
+            "Minggu": "08:30"
+        },
+        "tutup": {
+            "Senin": "20:00",
+            "Selasa": "20:00",
+            "Rabu": "20:00",
+            "Kamis": "20:00",
+            "Jumat": "20:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "longitude": "101.4158694",
+        "latitude": "0.5433166667",
+        "foto": [
+            "fitbeat luar.png",
+            "fitbeat dalam.jpg",
+            "fitbeat dalam 2.jpg"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
+    ,
+    {
+        "nama": "Raja Gym",
+        "telepon": "082169493216",
+        "alamat": "Jl. Delima Panam No.1A, Delima, Kec. Tampan, Kota Pekanbaru, Riau 28294",
+        "fasilitas": "gym",
+        "buka": {
+            "Senin": "08:30",
+            "Selasa": "08:30",
+            "Rabu": "08:30",
+            "Kamis": "08:30",
+            "Jumat": "08:30",
+            "Sabtu": "08:30",
+            "Minggu": "tutup"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "tutup"
+        },
+        "longitude": "101.4037083",
+        "latitude": "0.4653",
+        "foto": [
+            "raja gym luar.png",
+            "raja gym dalam.jpg"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
+    ,
+    {
+        "nama": "Muscle Gym Panam",
+        "telepon": "0822-9725-6955",
+        "alamat": "Jl. HR.Soebrantas, Tuah Karya, Kec. Tampan, Kota Pekanbaru, Riau 28293, Pekanbaru 28293",
+        "fasilitas": "Gym,Loker",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "longitude": "101.3721833",
+        "latitude": "0.4639166667",
+        "foto": [
+            "muscle gym panam dalam.jpg",
+            "muscle gym panam dalam 2.jpg",
+            "muscle gym panam luar.jpg"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
+    ,
+    {
+        "nama": "Permata Fitness",
+        "telepon": "06281371582222",
+        "alamat": "Jalan Suka karya No. 6, Kelurahan Sialang Munggu, Kecamatan Tampan, Tuah Karya, Tampan",
+        "fasilitas": "Gym",
+        "buka": {
+            "Senin": "09:00",
+            "Selasa": "09:00",
+            "Rabu": "09:00",
+            "Kamis": "09:00",
+            "Jumat": "09:00",
+            "Sabtu": "09:00",
+            "Minggu": "09:00"
+        },
+        "tutup": {
+            "Senin": "23:00",
+            "Selasa": "23:00",
+            "Rabu": "23:00",
+            "Kamis": "23:00",
+            "Jumat": "23:00",
+            "Sabtu": "23:00",
+            "Minggu": "23:00"
+        },
+        "longitude": "101.3856917",
+        "latitude": "0.4409888889",
+        "foto": [
+            "permata fitness luar.png",
+            "permata fitness dalam.png",
+            "permata fitness dalam 2.png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
+    ,
+    {
+        "nama": "O'Fit Gym Centre",
+        "telepon": "0822-5871-5184",
+        "alamat": "Jln. Garuda Sakti Km.3, Panam",
+        "fasilitas": "Gym",
+        "buka": {
+            "Senin": "09:00",
+            "Selasa": "09:00",
+            "Rabu": "09:00",
+            "Kamis": "09:00",
+            "Jumat": "09:00",
+            "Sabtu": "09:00",
+            "Minggu": "09:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "18:00",
+            "Minggu": "22:00"
+        },
+        "longitude": "101.3587306",
+        "latitude": "0.4866583333",
+        "foto": [
+            "o fit dalam 2.jpg",
+            "o fit dalam 3.png",
+            "o fit dalam.jpg",
+            "o fit luar.png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
+    ,
+    {
+        "nama": "Master Pelopor Fitness",
+        "telepon": "0852-5306-7247",
+        "alamat": "Jalan Air Hitam, Simpang Baru, Tampan, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau 28291",
+        "fasilitas": "Gym",
+        "buka": {
+            "Senin": "07:00",
+            "Selasa": "07:00",
+            "Rabu": "07:00",
+            "Kamis": "07:00",
+            "Jumat": "07:00",
+            "Sabtu": "07:00",
+            "Minggu": "07:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "longitude": "101.37275",
+        "latitude": "0.5006",
+        "foto": [
+            "master pelopor fitness dalam.png",
+            "master pelopor fitness luar.png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
+    ,
+    {
+        "nama": "Muscle Gym Hangtuah",
+        "telepon": "082284030317",
+        "alamat": "Jl. Hangtuah, Rejosari, Kec. Tenayan Raya, Kota Pekanbaru, Riau 28112",
+        "fasilitas": "Gym",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "longitude": "101.37275",
+        "latitude": "0.5006",
+        "foto": [
+            "master pelopor fitness dalam.png",
+            "master pelopor fitness luar.png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
+    ,
+    {
+        "nama": "Praja Fitness",
+        "telepon": "082284030317",
+        "alamat": "Jl. Hangtuah, Rejosari, Kec. Tenayan Raya, Kota Pekanbaru, Riau 28112",
+        "fasilitas": "Gym",
+        "buka": {
+            "Senin": "08:00",
+            "Selasa": "08:00",
+            "Rabu": "08:00",
+            "Kamis": "08:00",
+            "Jumat": "08:00",
+            "Sabtu": "08:00",
+            "Minggu": "08:00"
+        },
+        "tutup": {
+            "Senin": "22:00",
+            "Selasa": "22:00",
+            "Rabu": "22:00",
+            "Kamis": "22:00",
+            "Jumat": "22:00",
+            "Sabtu": "22:00",
+            "Minggu": "22:00"
+        },
+        "longitude": "101.4951639",
+        "latitude": "0.4858972222",
+        "foto": [
+            "master pelopor fitness dalam.png",
+            "master pelopor fitness luar.png"
+        ],
+        "ulasan": [
+            {
+                "nama": "b",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "3"
+            },
+            {
+                "nama": "c",
+                "foto": "IMG_20210831_203258_740.jpg",
+                "komentar": "iya",
+                "bintang": "4"
+            }
+        ]
+    }
 ]
