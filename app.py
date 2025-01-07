@@ -152,55 +152,57 @@ def beranda():
 def maps():
     if 'username' in session:
         if request.method == "POST":
-            print('lawak')
-            # namagym_post = session['gym']['nama']
-            # username_post = request.form['username']
-            bintang_post = request.form['bintang']
             komentar_post = request.form['komentar']
+            bintang_post = request.form['bintang']
+
+            # Buka dan baca data gyms.json
             with open("json/gyms.json", "r") as gyms_json_data:
                 gyms_json_data = json.load(gyms_json_data)
                 new_gyms_json_data = []
+
+                # Loop semua gym untuk proses ulasan
                 for gym in gyms_json_data:
                     if gym['nama'] == session["namagym"]:
-                        if len(gym['ulasan']) != 0:
-                            for ulasan in gym['ulasan']:
-                                print('sukses')
-                                if ulasan['nama'] == session['username']:
-                                    print('gagal')
-                                    return jsonify({'status' : "gagalulas"})         
-                            ulasanbaru = {"nama" : session['username'], "foto" : session['fotoprofile'] , "komentar" : komentar_post, "bintang" : bintang_post}
-                            gym['ulasan'].append(ulasanbaru)
-                            new_gyms_json_data.append(gym)
-                            with open("json/gyms.json", "w") as gyms_json_data:
-                                print(new_gyms_json_data)
-                                print('halo')
-                                json.dump(new_gyms_json_data, gyms_json_data, indent=4)
-                                return jsonify({'status' : "berhasilulas"})   
-                        else:
+                        # Periksa apakah user sudah memberikan ulasan sebelumnya
+                        if any(ulasan['nama'] == session['username'] for ulasan in gym['ulasan']):
+                            return jsonify({'status': "gagalulas"})
+                        
+                        # Tambah ulasan baru
+                        ulasanbaru = {
+                            "nama": session['username'],
+                            "foto": session['fotoprofile'],
+                            "komentar": komentar_post,
+                            "bintang": bintang_post
+                        }
+                        gym['ulasan'].append(ulasanbaru)
 
-                            with open("json/users.json", "r") as users_json_data:
-                                users_json_data = json.load(users_json_data)
-                                new_users_json_data = []
-                                for user in users_json_data:
-                                    if user['username'] == session['username']:
-                                        user['totalulasan'] = user['totalulasan'] + 1
-                                        session['totalulasan'] = user['totalulasan']
-                                    new_users_json_data.append(user)
-                                with open("json/users.json", "w") as users_json_data:
-                                    json.dump(new_users_json_data, users_json_data, indent=4)   
-                            
-                            ulasanbaru = {"nama" : session['username'],"foto" : session['fotoprofile'], "komentar" : komentar_post, "bintang" : bintang_post}
-                            gym['ulasan'].append(ulasanbaru)
-                            new_gyms_json_data.append(gym)
-                            with open("json/gyms.json", "w") as gyms_json_data:
-                                json.dump(new_gyms_json_data, gyms_json_data, indent=4)
-                                return jsonify({'status' : "berhasilulas"})   
-                              # Muat data gyms
+                        # Update jumlah ulasan user di users.json
+                        with open("json/users.json", "r") as users_json_data:
+                            users_json_data = json.load(users_json_data)
+                            for user in users_json_data:
+                                if user['username'] == session['username']:
+                                    user['totalulasan'] += 1
+                                    session['totalulasan'] = user['totalulasan']
+                            # Simpan kembali data user
+                            with open("json/users.json", "w") as users_json_file:
+                                json.dump(users_json_data, users_json_file, indent=4)
+
+                    # Tambahkan gym (baik yang diupdate maupun tidak) ke daftar baru
+                    new_gyms_json_data.append(gym)
+
+            # Simpan kembali gyms.json
+            with open("json/gyms.json", "w") as gyms_json_file:
+                json.dump(new_gyms_json_data, gyms_json_file, indent=4)
+
+            return jsonify({'status': "berhasilulas"})
+
+        # Jika metode GET, muat data gyms
         with open("json/gyms.json", "r") as gyms_file:
-            gyms = json.load(gyms_file)  
+            gyms = json.load(gyms_file)
         return render_template("maps.html", gyms=gyms)
+    
     else:
-        return render_template_string(login_tidak_valid)
+        return render_template_string("Login tidak valid.")
 
 @app.route('/datamaps', methods=['GET', 'POST'])
 def datamaps():

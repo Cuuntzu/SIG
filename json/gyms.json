@@ -41,6 +41,12 @@
                 "foto": "IMG_20210831_203258_740.jpg",
                 "komentar": "iya",
                 "bintang": "4"
+            },
+            {
+                "nama": "a",
+                "foto": "1134204.png",
+                "komentar": "mantap, badan saya jadi kekar",
+                "bintang": "4"
             }
         ]
     },
@@ -67,14 +73,13 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.451733333",
-        "longitude":   "101.4591056",
+        "latitude": "0.451733333",
+        "longitude": "101.4591056",
         "foto": [
             "AH Gym/gambar (1).png",
             "AH Gym/gambar (2).png",
             "AH Gym/gambar (3).png",
             "AH Gym/gambar (4).png"
-            
         ],
         "ulasan": [
             {
@@ -114,8 +119,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.528458333",
-        "longitude":   "101.4197944",
+        "latitude": "0.528458333",
+        "longitude": "101.4197944",
         "foto": [
             "Alpha Fit/gambar (1).png",
             "Alpha Fit/gambar (2).png",
@@ -159,8 +164,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.449055556",
-        "longitude":   "101.4625056",
+        "latitude": "0.449055556",
+        "longitude": "101.4625056",
         "foto": [
             "Angkasa Fitness Center/gambar (1).png",
             "Angkasa Fitness Center/gambar (2).png",
@@ -204,8 +209,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.459163889",
-        "longitude":   "101.4078528",
+        "latitude": "0.459163889",
+        "longitude": "101.4078528",
         "foto": [
             "An-Namiroh Gym/gambar (1).png"
         ],
@@ -247,8 +252,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.511197222",
-        "longitude":   "101.4338611",
+        "latitude": "0.511197222",
+        "longitude": "101.4338611",
         "foto": [
             "AtHome Fit/gambar (1).png",
             "AtHome Fit/gambar (2).png"
@@ -289,10 +294,10 @@
             "Kamis": "22:00",
             "Jumat": "22:00",
             "Sabtu": "22:00",
-            "Minggu": "22:00"   
+            "Minggu": "22:00"
         },
-        "latitude":  "0.462216667",
-        "longitude":   "101.4578667",
+        "latitude": "0.462216667",
+        "longitude": "101.4578667",
         "foto": [
             "Babe Gym/gambar (1).png"
         ],
@@ -334,8 +339,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.459277778",
-        "longitude":   "101.4525778",
+        "latitude": "0.459277778",
+        "longitude": "101.4525778",
         "foto": [
             "Bintang Raga Gym/gambar (1).png",
             "Bintang Raga Gym/gambar (2).png",
@@ -379,8 +384,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.515591667",
-        "longitude":   "101.4870556",
+        "latitude": "0.515591667",
+        "longitude": "101.4870556",
         "foto": [
             "Blitz Gym/gambar (1).png",
             "Blitz Gym/gambar (2).png",
@@ -424,8 +429,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.559530556",
-        "longitude":   "101.4350472",
+        "latitude": "0.559530556",
+        "longitude": "101.4350472",
         "foto": [
             "Brother Gym/gambar (1).png",
             "Brother Gym/gambar (2).png"
@@ -441,6 +446,12 @@
                 "nama": "c",
                 "foto": "IMG_20210831_203258_740.jpg",
                 "komentar": "iya",
+                "bintang": "4"
+            },
+            {
+                "nama": "a",
+                "foto": "1134204.png",
+                "komentar": "gg bang",
                 "bintang": "4"
             }
         ]
@@ -468,8 +479,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.513952778",
-        "longitude":   "101.433525",
+        "latitude": "0.513952778",
+        "longitude": "101.433525",
         "foto": [
             "Champions Gym/gambar (1).png",
             "Champions Gym/gambar (2).png"
@@ -512,8 +523,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.49045",
-        "longitude":   "101.4880083",
+        "latitude": "0.49045",
+        "longitude": "101.4880083",
         "foto": [
             "D&J/gambar (1).png",
             "D&J/gambar (2).png"
@@ -556,8 +567,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.560597222",
-        "longitude":   "101.4440972",
+        "latitude": "0.560597222",
+        "longitude": "101.4440972",
         "foto": [
             "Dalmy/gambar (1).png",
             "Dalmy/gambar (2).png",
@@ -601,8 +612,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.543316667",
-        "longitude":   "101.4158694",
+        "latitude": "0.543316667",
+        "longitude": "101.4158694",
         "foto": [
             "Fitbeat Pro/gambar (1).png",
             "Fitbeat Pro/gambar (2).png",
@@ -646,8 +657,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.443630556",
-        "longitude":   "101.4638361",
+        "latitude": "0.443630556",
+        "longitude": "101.4638361",
         "foto": [
             "Fitness Sakti/gambar (1).png",
             "Fitness Sakti/gambar (2).png",
@@ -691,8 +702,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.478422222",
-        "longitude":   "101.4499222",
+        "latitude": "0.478422222",
+        "longitude": "101.4499222",
         "foto": [
             "Focus Fit Arifin Ahmad/gambar (1).png",
             "Focus Fit Arifin Ahmad/gambar (2).png",
@@ -736,8 +747,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.536188889",
-        "longitude":   "101.4498806",
+        "latitude": "0.536188889",
+        "longitude": "101.4498806",
         "foto": [
             "Focus Fit Setia Budhi/gambar (1).png",
             "Focus Fit Setia Budhi/gambar (2).png",
@@ -781,8 +792,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.522977778",
-        "longitude":   "101.4204306",
+        "latitude": "0.522977778",
+        "longitude": "101.4204306",
         "foto": [
             "Focus Fit Soekarno Hatta/gambar (1).png",
             "Focus Fit Soekarno Hatta/gambar (2).png",
@@ -826,8 +837,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.509183333",
-        "longitude":   "101.4468167",
+        "latitude": "0.509183333",
+        "longitude": "101.4468167",
         "foto": [
             "Focus Fit Tambusai/gambar (1).png",
             "Focus Fit Tambusai/gambar (2).png",
@@ -871,8 +882,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.521511111",
-        "longitude":   "101.4428472",
+        "latitude": "0.521511111",
+        "longitude": "101.4428472",
         "foto": [
             "Grand Focus Fit/gambar (1).png",
             "Grand Focus Fit/gambar (2).png",
@@ -916,8 +927,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.479775",
-        "longitude":   "101.4775944",
+        "latitude": "0.479775",
+        "longitude": "101.4775944",
         "foto": [
             "House of Sixpack/gambar (1).png",
             "House of Sixpack/gambar (2).png"
@@ -960,8 +971,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.465213889",
-        "longitude":   "101.3859028",
+        "latitude": "0.465213889",
+        "longitude": "101.3859028",
         "foto": [
             "Hunter/gambar (1).png",
             "Hunter/gambar (2).png"
@@ -1004,8 +1015,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.5006",
-        "longitude":   "101.37275",
+        "latitude": "0.5006",
+        "longitude": "101.37275",
         "foto": [
             "Master Pelopor/gambar (1).png"
         ],
@@ -1047,8 +1058,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.564491667",
-        "longitude":   "101.4494056",
+        "latitude": "0.564491667",
+        "longitude": "101.4494056",
         "foto": [
             "Maxidon/gambar (1).png",
             "Maxidon/gambar (2).png"
@@ -1091,8 +1102,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.524141667",
-        "longitude":   "101.4788528",
+        "latitude": "0.524141667",
+        "longitude": "101.4788528",
         "foto": [
             "Muscle Gym Hangtuah/gambar (1).png",
             "Muscle Gym Hangtuah/gambar (2).png",
@@ -1136,8 +1147,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.439672222",
-        "longitude":   "101.4516222",
+        "latitude": "0.439672222",
+        "longitude": "101.4516222",
         "foto": [
             "Muscle Gym Marporyan/gambar (1).png",
             "Muscle Gym Marporyan/gambar (2).png",
@@ -1181,8 +1192,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.463916667",
-        "longitude":   "101.3721833",
+        "latitude": "0.463916667",
+        "longitude": "101.3721833",
         "foto": [
             "Muscle Gym Panam/gambar (1).png",
             "Muscle Gym Panam/gambar (2).png",
@@ -1226,8 +1237,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.472108333",
-        "longitude":   "101.4272222",
+        "latitude": "0.472108333",
+        "longitude": "101.4272222",
         "foto": [
             "Muscle Gym Rambutan/gambar (1).png",
             "Muscle Gym Rambutan/gambar (2).png"
@@ -1270,8 +1281,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.569722222",
-        "longitude":   "101.4231028",
+        "latitude": "0.569722222",
+        "longitude": "101.4231028",
         "foto": [
             "Muscle Gym Umban Sari Atas/gambar (1).png"
         ],
@@ -1313,8 +1324,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.425741667",
-        "longitude":   "101.4194972",
+        "latitude": "0.425741667",
+        "longitude": "101.4194972",
         "foto": [
             "Naga Sakti/gambar (1).png"
         ],
@@ -1356,8 +1367,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.524230556",
-        "longitude":   "101.4327333",
+        "latitude": "0.524230556",
+        "longitude": "101.4327333",
         "foto": [
             "New Hangtuah/gambar (1).png",
             "New Hangtuah/gambar (2).png",
@@ -1401,8 +1412,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.486658333",
-        "longitude":   "101.3587306",
+        "latitude": "0.486658333",
+        "longitude": "101.3587306",
         "foto": [
             "O_Fit/gambar (1).png",
             "O_Fit/gambar (2).png"
@@ -1445,8 +1456,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.440988889",
-        "longitude":   "101.3856917",
+        "latitude": "0.440988889",
+        "longitude": "101.3856917",
         "foto": [
             "Permata/gambar (1).png",
             "Permata/gambar (2).png"
@@ -1489,8 +1500,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.485897222",
-        "longitude":   "101.4951639",
+        "latitude": "0.485897222",
+        "longitude": "101.4951639",
         "foto": [
             "Praja/gambar (1).png",
             "Praja/gambar (2).png",
@@ -1534,8 +1545,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.509897222",
-        "longitude":   "101.4482611",
+        "latitude": "0.509897222",
+        "longitude": "101.4482611",
         "foto": [
             "Prince/gambar (1).png",
             "Prince/gambar (2).png",
@@ -1579,8 +1590,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.513797222",
-        "longitude":   "101.4377583",
+        "latitude": "0.513797222",
+        "longitude": "101.4377583",
         "foto": [
             "Prince55/gambar (1).png"
         ],
@@ -1622,8 +1633,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.443625",
-        "longitude":   "101.4408389",
+        "latitude": "0.443625",
+        "longitude": "101.4408389",
         "foto": [
             "Racika/gambar (1).png",
             "Racika/gambar (2).png"
@@ -1666,8 +1677,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.4653",
-        "longitude":   "101.4037083",
+        "latitude": "0.4653",
+        "longitude": "101.4037083",
         "foto": [
             "Raja/gambar (1).png",
             "Raja/gambar (2).png"
@@ -1710,8 +1721,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.523608333",
-        "longitude":   "101.4231556",
+        "latitude": "0.523608333",
+        "longitude": "101.4231556",
         "foto": [
             "Real Private/gambar (1).png"
         ],
@@ -1753,8 +1764,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.52675",
-        "longitude":   "101.4266556",
+        "latitude": "0.52675",
+        "longitude": "101.4266556",
         "foto": [
             "RIT/gambar (1).png",
             "RIT/gambar (2).png",
@@ -1798,8 +1809,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.49985",
-        "longitude":   "101.4179139",
+        "latitude": "0.49985",
+        "longitude": "101.4179139",
         "foto": [
             "Shaga/gambar (1).png"
         ],
@@ -1841,8 +1852,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.542891667",
-        "longitude":   "101.4160167",
+        "latitude": "0.542891667",
+        "longitude": "101.4160167",
         "foto": [
             "SL/gambar (1).png",
             "SL/gambar (2).png",
@@ -1886,8 +1897,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.502527778",
-        "longitude":   "101.4211583",
+        "latitude": "0.502527778",
+        "longitude": "101.4211583",
         "foto": [
             "Top/gambar (1).png",
             "Top/gambar (2).png",
@@ -1932,8 +1943,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.536038889",
-        "longitude":   "101.4487111",
+        "latitude": "0.536038889",
+        "longitude": "101.4487111",
         "foto": [
             "Tristan/gambar (1).png",
             "Tristan/gambar (2).png",
@@ -1977,8 +1988,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.462072222",
-        "longitude":   "101.4585444",
+        "latitude": "0.462072222",
+        "longitude": "101.4585444",
         "foto": [
             "Yayat/gambar (1).png"
         ],
@@ -2020,8 +2031,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.501",
-        "longitude":   "101.4727",
+        "latitude": "0.501",
+        "longitude": "101.4727",
         "foto": [
             "Zahri/gambar (1).png"
         ],
@@ -2063,8 +2074,8 @@
             "Sabtu": "22:00",
             "Minggu": "22:00"
         },
-        "latitude":  "0.561691667",
-        "longitude":   "101.4328417",
+        "latitude": "0.561691667",
+        "longitude": "101.4328417",
         "foto": [
             "Zeus/gambar (1).png",
             "Zeus/gambar (2).png",
