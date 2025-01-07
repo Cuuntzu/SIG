@@ -146,6 +146,24 @@ li a {
   text-decoration: underline;
 }
 
+.kanan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertikal tengah */
+  align-items: center; /* Horizontal tengah */
+  text-align: center; /* Untuk memastikan teks juga berada di tengah */
+  padding: 0 50px;
+  width: 50%;
+}
+
+.kanan img {
+  width: 50%; /* Sesuaikan ukuran gambar */
+  height: 50%;
+  border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+  object-fit: cover; /* Memastikan gambar tetap proporsional dan terpotong dengan baik jika perlu */
+  margin-bottom: 20px; /* Jarak antara gambar dan teks */
+}
+
 .kanan h1 {
   font-size: 28px;
   margin-bottom: 25px;
