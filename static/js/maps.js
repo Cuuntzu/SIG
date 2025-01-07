@@ -65,7 +65,16 @@ function sa_gagalulas() {
 
     function searchGym() {
         const searchTerm = document.getElementById('search-bar').value.toLowerCase();
-        const foundGym = gymData.find(gym => gym.nama.toLowerCase().includes(searchTerm));
+        const searchType = document.getElementById('search-type').value.toLowerCase();
+
+        var foundGym = ""
+        console.log(searchType)
+        if (searchType == "nama"){
+            foundGym = gymData.find(gym => gym.nama.toLowerCase().includes(searchTerm));
+        }
+        else if (searchType == "alamat"){
+            foundGym = gymData.find(gym => gym.alamat.toLowerCase().includes(searchTerm));
+        }
 
         if (foundGym) {
             map.setView([foundGym.latitude, foundGym.longitude], 15);

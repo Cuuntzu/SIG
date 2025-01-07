@@ -1,5 +1,15 @@
 [
     {
+        "username": "admin",
+        "password": "admin",
+        "usia": "3",
+        "jeniskelamin": "Laki-laki \ud83d\udc66",
+        "fotoprofile": "1134204.png",
+        "jenisgym": "Strength \ud83d\udcaa",
+        "deskripsi": "Saya mantap \ud83e\uddd8\ud83e\uddd8\ud83e\uddd8\ud83e\uddd8\ud83e\uddd8\ud83e\uddd8",
+        "totalulasan": 2
+    },
+    {
         "username": "a",
         "password": "a",
         "usia": "3",

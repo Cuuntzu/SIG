@@ -27,6 +27,9 @@
     <nav id="sidebar" class="collapsed">
         <button class="toggle-btn" onclick="toggleSidebar()"><i class="fa fa-bars"></i></button>
         <ul>
+            {% if session["username"] == "admin" %}
+            <li><a href="/admin" class="d-flex align-items-center"> <div class="fa fa-beer me-2"></div> <span class="nav-text">Admin - Gym</span></a></li>
+            {% endif %}
             <li><a href="/beranda" class="d-flex align-items-center"> <div class="fa fa-home me-2"></div> <span class="nav-text">Beranda</span></a></li>
             <li><a href="/maps" class="d-flex align-items-center"><div class="fa fa-map me-2"></div> <span class="nav-text">Maps</span></a></li>
             <li><a href="/module" class="d-flex align-items-center"><div class="fa fa-book me-2"></div> <span class="nav-text">Module</span></a></li>

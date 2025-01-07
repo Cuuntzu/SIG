@@ -52,6 +52,10 @@ Maps
         <!-- Map and Search Section -->
         <div id="mapContainer" class="col-12">
             <input type="text" id="search-bar" class="form-control mb-3 shadow" placeholder="Cari Gym..." oninput="searchGym()" />
+            <select id="search-type" class="form-select form-select-lg mb-3"  onchange="searchGym()">
+                <option value="nama" selected>Nama</option>
+                <option value="alamat">Alamat</option>
+              </select>
             <div id="map" class="shadow rounded">
                 <!-- Map content will be displayed here -->
             </div>

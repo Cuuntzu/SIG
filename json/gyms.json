@@ -1,56 +1,5 @@
 [
     {
-        "nama": "Neo Fitness",
-        "telepon": "(0761) 42372",
-        "alamat": "Jl. Riau No.55, Padang Terubuk, Kec. Senapelan, Kota Pekanbaru, Riau 28155",
-        "fasilitas": "Gym, Personal Trainer, Kelas Yoga, Aerobik, Spinning",
-        "buka": {
-            "Senin": "06:00",
-            "Selasa": "06:00",
-            "Rabu": "06:00",
-            "Kamis": "06:00",
-            "Jumat": "06:00",
-            "Sabtu": "08:00",
-            "Minggu": "08:00"
-        },
-        "tutup": {
-            "Senin": "22:00",
-            "Selasa": "22:00",
-            "Rabu": "22:00",
-            "Kamis": "22:00",
-            "Jumat": "22:00",
-            "Sabtu": "21:00",
-            "Minggu": "21:00"
-        },
-        "longitude": "101.43763009996027",
-        "latitude": "0.5351702087396188",
-        "foto": [
-            "Neo/gambar (1).png",
-            "Neo/gambar (2).png",
-            "Neo/gambar (3).png"
-        ],
-        "ulasan": [
-            {
-                "nama": "b",
-                "foto": "IMG_20210831_203258_740.jpg",
-                "komentar": "iya",
-                "bintang": "3"
-            },
-            {
-                "nama": "c",
-                "foto": "IMG_20210831_203258_740.jpg",
-                "komentar": "iya",
-                "bintang": "4"
-            },
-            {
-                "nama": "a",
-                "foto": "1134204.png",
-                "komentar": "mantap, badan saya jadi kekar",
-                "bintang": "4"
-            }
-        ]
-    },
-    {
         "nama": "AH Gym+Athletics",
         "telepon": "0823-9028-6305",
         "alamat": "Jalan Air Dingin",
@@ -2095,5 +2044,36 @@
                 "bintang": "4"
             }
         ]
+    },
+    {
+        "nama": "zz",
+        "telepon": "zz",
+        "alamat": "zz",
+        "fasilitas": "zz",
+        "buka": {
+            "Senin": "22:54",
+            "Selasa": "22:54",
+            "Rabu": "22:57",
+            "Kamis": "22:55",
+            "Jumat": "22:55",
+            "Sabtu": "22:54",
+            "Minggu": "22:53"
+        },
+        "tutup": {
+            "Senin": "22:54",
+            "Selasa": "00:52",
+            "Rabu": "22:58",
+            "Kamis": "22:57",
+            "Jumat": "22:57",
+            "Sabtu": "22:55",
+            "Minggu": "22:54"
+        },
+        "latitude": "0.561691667",
+        "longitude": "101.4328417",
+        "foto": [
+            "1134204.png",
+            "AC1.jpg"
+        ],
+        "ulasan": []
     }
 ]

@@ -1,4 +1,4 @@
-from flask import Flask, render_template, render_template_string, request, jsonify, session
+from flask import Flask, render_template, render_template_string, request, jsonify, session, redirect, url_for
 import json
 import os
 
@@ -123,6 +123,135 @@ login_tidak_valid = '''<!DOCTYPE html>
         </script>
     </body>
     </html> '''
+    
+
+data_file = 'json/gyms.json'
+def load_data():
+    with open(data_file, 'r') as f:
+        return json.load(f)
+
+def save_data(data):
+    with open(data_file, 'w') as f:
+        json.dump(data, f, indent=4)
+
+@app.route("/admin", methods=["GET", "POST"])
+def admin():
+    if "username" not in session:
+        return render_template_string(login_tidak_valid)
+
+    gyms = load_data()
+    query = request.args.get('query', '')
+    search_type = request.args.get('type', 'name')
+    page = int(request.args.get('page', 1))
+    per_page = 5
+
+    # Filter gyms based on search
+    if query:
+        if search_type == 'name':
+            gyms = [gym for gym in gyms if query.lower() in gym['nama'].lower()]
+        elif search_type == 'address':
+            gyms = [gym for gym in gyms if query.lower() in gym['alamat'].lower()]
+
+    total_gyms = len(gyms)
+    total_pages = (total_gyms + per_page - 1) // per_page  # Calculate total pages
+    start = (page - 1) * per_page
+    end = start + per_page
+
+    # Pass pagination variables to template
+    return render_template(
+        "admin.html",
+        gyms=gyms,
+        query=query,
+        search_type=search_type,
+        page=page,
+        total_pages=total_pages,
+        start=start,
+        end=end
+    )
+
+from werkzeug.utils import secure_filename
+ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
+UPLOAD_FOLDER = 'static/uploads/fotogym'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+@app.route("/admin/add", methods=["POST"])
+def add_gym():
+    gyms = load_data()
+    files = request.files.getlist("foto")
+    uploaded_files = []
+
+    # Simpan file foto ke folder static/uploads/fotogym
+    for file in files:
+        if file and allowed_file(file.filename):
+            filename = secure_filename(file.filename)
+            file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            file.save(file_path)
+            uploaded_files.append(f"{filename}")
+            # uploaded_files.append(f"uploads/fotogym/{filename}")
+
+    new_gym = {
+        "nama": request.form["nama"],
+        "telepon": request.form["telepon"],
+        "alamat": request.form["alamat"],
+        "fasilitas": request.form["fasilitas"],
+        "buka": {
+            day: request.form.get(f"buka_{day}") for day in ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"]
+        },
+        "tutup": {
+            day: request.form.get(f"tutup_{day}") for day in ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"]
+        },
+        "latitude": request.form["latitude"],
+        "longitude": request.form["longitude"],
+        "foto": uploaded_files,
+        "ulasan": [],  # Kosong saat gym baru ditambahkan
+    }
+    gyms.append(new_gym)
+    save_data(gyms)
+    return redirect(url_for('admin'))
+
+@app.route("/admin/delete/<int:gym_id>", methods=["POST"])
+def delete_gym(gym_id):
+    gyms = load_data()
+    if 0 <= gym_id < len(gyms):
+        del gyms[gym_id]
+        save_data(gyms)
+    return redirect(url_for('admin'))
+    
+@app.route("/admin/edit/<int:gym_id>", methods=["POST"])
+def edit_gym(gym_id):
+    gyms = load_data()
+    if 0 <= gym_id < len(gyms):
+        # files = request.files.getlist("foto")
+        uploaded_files = gyms[gym_id]["foto"]  # Pertahankan foto lama
+
+        # # Tambahkan file foto baru
+        # for file in files:
+        #     if file and allowed_file(file.filename):
+        #         filename = secure_filename(file.filename)
+        #         file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        #         file.save(file_path)
+        #         uploaded_files.append(f"uploads/fotogym/{filename}")
+
+        gyms[gym_id] = {
+            "nama": request.form["nama"],
+            "telepon": request.form["telepon"],
+            "alamat": request.form["alamat"],
+            "fasilitas": request.form["fasilitas"],
+            "buka": {
+                day: request.form.get(f"buka_{day}") for day in ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"]
+            },
+            "tutup": {
+                day: request.form.get(f"tutup_{day}") for day in ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"]
+            },
+            "latitude": request.form["latitude"],
+            "longitude": request.form["longitude"],
+            "foto": uploaded_files,
+            "ulasan": gyms[gym_id]["ulasan"],
+        }
+        save_data(gyms)
+    return redirect(url_for('admin'))   
+    
     
 @app.route('/beranda', methods=["GET"])
 def beranda():
